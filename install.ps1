@@ -35,7 +35,7 @@ if ($p.ExitCode -ne 0) { throw "部署失敗（exit $($p.ExitCode)），日誌�
 Write-Host '== 檢查'
 $schema = Join-Path $UserDir 'build\luna_pinyin_tw.schema.yaml'
 if (-not (Test-Path $schema)) {
-  throw "沒有編出 luna_pinyin_tw 方案。小狼毫可能沒附 luna_pinyin_tw.schema.yaml，見 README。"
+  throw "沒有編出 luna_pinyin_tw 方案。小狼毫可能沒附 luna_pinyin_tw.schema.yaml，見 README.zh-TW.md。"
 }
 if (-not (Select-String -Path $schema -Pattern '^\s+dictionary: luna_pinyin_ext$' -Quiet)) {
   throw '臺灣正體方案沒有改用 luna_pinyin_ext 詞庫，日誌在 ' + "$env:TEMP\rime.weasel\"

@@ -28,4 +28,4 @@ luna_pinyin_extra.dict.yaml, and the documentation).
 
 It does NOT cover the dictionary entries in luna_pinyin_ext.dict.yaml, which
 are derived from the Ministry of Education (R.O.C.) dictionaries and remain
-under their own license. See "授權與來源 / License and sources" in README.md.
+under their own license. See "License and sources" in README.md (中文：README.zh-TW.md〈授權與來源〉).

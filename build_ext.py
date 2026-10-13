@@ -1,6 +1,6 @@
 """產生 luna_pinyin_ext.dict.yaml：官方 luna_pinyin 骨架 + 萌典層。
 
-規則（說明見 README〈詞庫怎麼做的〉）：
+規則（說明見 README.md "How the dictionary is built"，中文見 README.zh-TW.md〈詞庫怎麼做的〉）：
   只收三字以上的詞。
   ü：萌典把 ü 寫成 u，逐字對照 terra_pinyin 同聲調讀音改寫；u 型、v 型都真實存在時兩種都收。
   A 官方沒有的詞 → 全收
