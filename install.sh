@@ -15,6 +15,9 @@ for cmd in git python3 rime_deployer rime_table_decompiler; do
   command -v "$cmd" >/dev/null || { echo "缺少 $cmd（apt install fcitx5-rime librime-bin git python3）" >&2; exit 1; }
 done
 [ -f "$RIME_DATA/terra_pinyin.dict.yaml" ] || { echo "缺少 terra_pinyin（apt install rime-data-terra-pinyin）" >&2; exit 1; }
+for f in build/luna_pinyin.table.bin luna_pinyin_tw.schema.yaml; do
+  [ -f "$RIME_DATA/$f" ] || { echo "缺少 $RIME_DATA/$f（apt install rime-data-luna-pinyin）" >&2; exit 1; }
+done
 # fcitx5-chinese-addons 會連帶裝 QtWebEngine，只裝拼音本體
 python3 -c "import gi" 2>/dev/null || { echo "缺少 python3-gi（apt install python3-gi），設定切換鍵要用" >&2; exit 1; }
 dpkg -s fcitx5-pinyin >/dev/null 2>&1 || { echo "缺少 fcitx5 拼音（sudo apt install --no-install-recommends fcitx5-pinyin fcitx5-module-cloudpinyin）" >&2; exit 1; }
@@ -22,12 +25,17 @@ dpkg -s fcitx5-pinyin >/dev/null 2>&1 || { echo "缺少 fcitx5 拼音（sudo apt
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
 
+# 輸出平常不印，失敗時印最後 20 行再結束，不要靜默退出
+quiet() {
+  "$@" >"$TMP/cmd.log" 2>&1 || { tail -n 20 "$TMP/cmd.log" >&2; echo "失敗：$*" >&2; exit 1; }
+}
+
 echo "== 下載萌典來源（$SRC_COMMIT）"
 git clone -q "$SRC_REPO" "$TMP/src"
 git -C "$TMP/src" checkout -q "$SRC_COMMIT"
 
 echo "== 反編譯官方表"
-rime_table_decompiler "$RIME_DATA/build/luna_pinyin.table.bin" "$TMP/official.txt" >/dev/null 2>&1
+quiet rime_table_decompiler "$RIME_DATA/build/luna_pinyin.table.bin" "$TMP/official.txt"
 
 echo "== 產生 luna_pinyin_ext.dict.yaml"
 python3 -I "$HERE/build_ext.py" "$TMP/src/terra_pinyin.taiwan.dict.yaml" "$RIME_DATA" \
@@ -50,10 +58,10 @@ others=$(cd "$USER_DIR" && ls *.dict.yaml 2>/dev/null | grep -vxE "luna_pinyin_(
 cp "$HERE"/{luna_pinyin_ext.dict.yaml,luna_pinyin_extra.dict.yaml,luna_pinyin_tw.custom.yaml,default.custom.yaml} "$USER_DIR/"
 
 echo "== 部署"
-rime_deployer --build "$USER_DIR" "$RIME_DATA" "$USER_DIR/build" >/dev/null 2>&1
+quiet rime_deployer --build "$USER_DIR" "$RIME_DATA" "$USER_DIR/build"
 
 echo "== 驗證"
-rime_table_decompiler "$USER_DIR/build/luna_pinyin_ext.table.bin" "$TMP/ext.txt" >/dev/null 2>&1
+quiet rime_table_decompiler "$USER_DIR/build/luna_pinyin_ext.table.bin" "$TMP/ext.txt"
 python3 -I "$HERE/verify.py" "$TMP/official.txt" "$TMP/ext.txt"
 
 # KDE Wayland 下不要重啟 fcitx5（重啟後回不到 KWin 底下），用熱重載

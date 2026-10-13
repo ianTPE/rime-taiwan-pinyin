@@ -126,7 +126,7 @@ Rime 的方案清單（`` Ctrl+` `` 或 F4）只應該有「朙月拼音·臺灣
 
 ### 自己加詞
 
-改 `luna_pinyin_extra.dict.yaml`，一行一個詞：`詞<Tab>拼音<Tab>500`。只加官方沒有的詞——官方已經有的詞再列一次，會整詞取代官方讀音。改完：
+改 `luna_pinyin_extra.dict.yaml`，一行一個詞：`詞<Tab>拼音<Tab>500`。只加官方沒有的詞。官方已經有的詞如果再列一次，結果看官方那筆從哪來：`/usr/share/rime-data/luna_pinyin.dict.yaml` 明確列出的詞，官方讀音保留、你的讀音疊加上去；只來自 essay 語料的詞（軟體這類常用詞也是），官方讀音會被你的取代。分辨方法：`grep -P '^軟體\t' /usr/share/rime-data/luna_pinyin.dict.yaml`，沒有輸出就是只在 essay，要把官方讀音也另列一行。改完：
 
 - Linux：再跑一次 `./install.sh`。
 - Windows：再跑一次 `install.ps1`。

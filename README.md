@@ -120,7 +120,7 @@ The rules live in `build_ext.py`. `verify.py` compares the official and built ta
 
 ### Adding your own words
 
-Edit `luna_pinyin_extra.dict.yaml`, one word per line: `word<Tab>pinyin<Tab>500`. Only add words the official dictionary lacks — listing an existing word again replaces its official readings. Then rerun `./install.sh` (Linux) or `install.ps1` (Windows).
+Edit `luna_pinyin_extra.dict.yaml`, one word per line: `word<Tab>pinyin<Tab>500`. Only add words the official dictionary lacks. If you do list a word it already has, what happens depends on where the official entry comes from: a word listed in `/usr/share/rime-data/luna_pinyin.dict.yaml` keeps its official readings and gains yours, but a word that only comes from the essay corpus (common ones like 軟體 included) has its official reading replaced by yours. To check, run `grep -P '^軟體\t' /usr/share/rime-data/luna_pinyin.dict.yaml`; no output means essay-only, so add the official reading as its own line too. Then rerun `./install.sh` (Linux) or `install.ps1` (Windows).
 
 ## Tested on
 
