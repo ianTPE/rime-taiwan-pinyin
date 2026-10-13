@@ -1,0 +1,22 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 手動維護的補詞：官方表與萌典層都沒收的臺灣用語、人名、品牌。
+# 由 luna_pinyin_ext 的 import_tables 帶入。
+# 只收官方表完全沒有的詞：官方已有的詞再列一次，會整詞取代官方讀音。
+# 權重 500：跟同類常用詞同級，全拼打得出來時排得上前面。
+
+---
+name: luna_pinyin_extra
+version: "2026.10.12"
+sort: by_weight
+...
+
+學測	xue ce	500
+指考	zhi kao	500
+衛福部	wei fu bu	500
+機場捷運	ji chang jie yun	500
+賴清德	lai qing de	500
+柯文哲	ke wen zhe	500
+韓國瑜	han guo yu	500
+全聯	quan lian	500

@@ -1,0 +1,2570 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 由 build_ext.py 產生，不要手改。
+# 官方 luna_pinyin 骨架 + 萌典層（taiwandict-to-terrapinyin terra_pinyin.taiwan.dict.yaml）
+# 手動補詞在 luna_pinyin_extra.dict.yaml，由 import_tables 帶入
+
+---
+name: luna_pinyin_ext
+version: "2026.10.10"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+  - luna_pinyin_extra
+...
+
+一三五不論二四六分明	yi san wu bu lun er si liu fen ming
+一不扭眾	yi bu niu zhong
+一不拗眾	yi bu niu zhong
+一之為甚	yi zhi wei shen
+一人不敵眾人智	yi ren bu di zhong ren zhi
+一人傳十十人傳百	yi ren chuan shi shi ren chuan bai
+一人吃齋十人唸佛	yi ren chi zhai shi ren nian fo
+一人有慶兆民賴之	yi ren you qing zhao min lai zhi
+一來照顧郎中二來又醫得眼好	yi lai zhao gu lang zhong er lai you yi de yan hao
+一個碗內兩張匙不是湯著就抹著	yi ge wan nei liang zhang chi bu shi tang zhao jiu mo zhao
+一個鍋裡吃飯的	yi ge guo li chi fan de
+一個饅頭也得蒸熟吃	yi ge man tou ye dei zheng shou chi
+一傅眾咻	yi fu zhong xiu
+一價吃到飽	yi jia chi dao bao
+一分行情一分貨	yi fen hang qing yi fen huo
+一切眾生	yi qie zhong sheng
+一則以喜一則以懼	yi ze yi xi yi ze yi ju
+一吐為快	yi tu wei kuai
+一地裡	yi di li
+一場官司一場火任你好漢沒處躲	yi chang guan si yi chang huo ren ni hao han mei chu duo
+一塊石頭掉井裡	yi kuai shi tou diao jing li
+一塊羊肉落在狗口裡	yi kuai yang rou luo zai gou kou li
+一夜被蛇咬十日怕麻繩	yi ye bei she yao shi ri pa ma sheng
+一尺水十丈波	yi chi shui shi zhang bo
+一尺水百丈波	yi chi shui bai zhang bo
+一年大二年小	yi nian da er nian xiao
+一年被蛇咬三年怕草索	yi nian bei she yao san nian pa cao suo
+一床一臥	yi chuang yi wo
+一床三放	yi chuang san fang
+一床兩好	yi chuang liang hao
+一床錦被蓋過	yi chuang jin bei gai guo
+一床錦被遮蓋	yi chuang jin bei zhe gai
+一度著蛇咬怕見斷井索	yi du zhao she yao pa jian duan jing suo
+一想紅二想黑	yi xiang hong er xiang hei
+一手交錢一手交貨	yi shou jiao qian yi shou jiao huo
+一把鼻涕一包眼淚	yi ba bi ti yi bao yan lei
+一日兩兩日三	yi ri liang liang ri san
+一日叫娘終身是母	yi ri jiao niang zhong shen shi mu
+一日為師終身為父	yi ri wei shi zhong shen wei fu
+一是一二是二	yi shi yi er shi er
+一朝權在手便把令來行	yi zhao quan zai shou bian ba ling lai xing
+一朝被蛇咬三年怕井繩	yi zhao bei she yao san nian pa jing sheng
+一朝被蛇咬十年怕草繩	yi zhao bei she yao shi nian pa cao sheng
+一枝草一點露	yi zhi cao yi dian lu
+一步錯步步錯	yi bu cuo bu bu cuo
+一犬吠形百犬吠聲	yi quan fei xing bai quan fei sheng
+一生喫著不盡	yi sheng chi zhuo bu jin
+一而二二而一	yi er er er er yi
+一而二二而三	yi er er er er san
+一著不慎滿盤皆輸	yi zhuo bu shen man pan jie shu
+一著錯滿盤俱是空	yi zhuo cuo man pan ju shi kong
+一虎難敵眾犬	yi hu nan di zhong quan
+一言為定	yi yan wei ding
+一貴一賤交情乃見	yi gui yi jian jiao qing nai xian
+一遞裡	yi di li
+一部二十四史不知從何說起	yi bu er shi si shi bu zhi cong he shuo qi
+一鍋麵	yi guo mian
+一雞三吃	yi ji san chi
+一鞭一條痕一摑一掌血	yi bian yi tiao hen yi guo yi zhang xie
+一頭放火一頭放水	yi tou fang huo yi tou fang shui
+一飲一啄莫非前定	yi yin yi zhuo mo fei qian ding
+一魚兩吃	yi yu liang chi
+丁對丁鐵對鐵	ding dui ding tie dui tie
+七八下裡	qi ba xia li
+七年之病求三年之艾	qi nian zhi bing qiu san nian zhi ai
+丈夫一言快馬一鞭	zhang fu yi yan kuai ma yi bian
+丈母娘看女婿越看越有趣	zhang mu niang kan nv xu yue kan yue you qu
+三五成群	san wu cheng qun
+三分像人七分像鬼	san fen xiang ren qi fen xiang gui
+三分匠人七分主人	san fen jiang ren qi fen zhu ren
+三十二位元個人電腦	san shi er wei yuan ge ren dian nao
+三十六策走是上計	san shi liu ce zou shi shang ji
+三十六著走為上著	san shi liu zhao zou wei shang zhao
+三十六計走為上策	san shi liu ji zou wei shang ce
+三十六計走為上計	san shi liu ji zou wei shang ji
+三十年河東三十年河西	san shi nian he dong san shi nian he xi
+三句甜兩句苦	san ju tian liang ju ku
+三天打魚兩天晒網	san tian da yu liang tian shai wang
+三寸丁谷樹皮	san cun ding gu shu pi
+三層大二層小	san ceng da er ceng xiao
+三度空間立體順形放射治療	san du kong jian li ti shun xing fang she zhi liao
+三折肱為良醫	san zhe gong wei liang yi
+三日一小宴五日一大宴	san ri yi xiao yan wu ri yi da yan
+三日打魚兩日晒網	san ri da yu liang ri shai wang
+三月裡的桃花	san yue li de tao hua
+三稜鏡	san leng jing
+三稜體	san leng ti
+三軍易得一將難求	san jun yi de yi jiang nan qiu
+三閭大夫	san lv da fu
+上下床	shang xia chuang
+上不上下不下	shang bu shang xia bu xia
+上天無路入地無門	shang tian wu lu ru di wu men
+上山擒虎易開口告人難	shang shan qin hu yi kai kou gao ren nan
+上無片瓦遮身下無立錐之地	shang wu pian wa zhe shen xia wu li zhui zhi di
+下不為例	xia bu wei li
+下大夫	xia da fu
+下床氣	xia chuang qi
+不乾不淨吃了沒病	bu gan bu jing chi le mei bing
+不以為	bu yi wei
+不以為奇	bu yi wei qi
+不以為忤	bu yi wei wu
+不以為意	bu yi wei yi
+不以為然	bu yi wei ran
+不以為苦	bu yi wei ku
+不作為	bu zuo wei
+不作為犯	bu zuo wei fan
+不作為違警	bu zuo wei wei jing
+不做釅醋卻做餳糖	bu zuo yan cu que zuo xing tang
+不入獸穴安得獸子	bu ru shou xue an de shou zi
+不入虎穴不得虎子	bu ru hu xue bu de hu zi
+不分南北東西不問張王李趙	bu fen nan bei dong xi bu wen zhang wang li zhao
+不列顛群島	bu lie dian qun dao
+不受苦中苦難為人上人	bu shou ku zhong ku nan wei ren shang ren
+不可為	bu ke wei
+不可無一不可有二	bu ke wu yi bu ke you er
+不吃煙火食	bu chi yan huo shi
+不吃苦中苦難為人上人	bu chi ku zhong ku nan wei ren shang ren
+不吃虧	bu chi kui
+不因一事不長一智	bu yin yi shi bu zhang yi zhi
+不在其位不謀其政	bu zai qi wei bu mou qi zheng
+不地著	bu di zhuo
+不塞不流不止不行	bu se bu liu bu zhi bu xing
+不失為	bu shi wei
+不好啟齒	bu hao qi chi
+不如意事十常八九	bu ru yi shi shi chang ba jiu
+不孝有三無後為大	bu xiao you san wu hou wei da
+不怕不識貨就怕貨比貨	bu pa bu shi huo jiu pa huo bi huo
+不怕慢就怕站	bu pa man jiu pa zhan
+不怕貨比貨就怕不識貨	bu pa huo bi huo jiu pa bu shi huo
+不患無位患所以立	bu huan wu wei huan suo yi li
+不成為君	bu cheng wei jun
+不把人看在眼裡	bu ba ren kan zai yan li
+不把將軍為神道	bu ba jiang jun wei shen dao
+不探虎穴安得虎子	bu tan hu xue an de hu zi
+不放在眼裡	bu fang zai yan li
+不明就裡	bu ming jiu li
+不是一家人不進一家門	bu shi yi jia ren bu jin yi jia men
+不是你死就是我活	bu shi ni si jiu shi wo huo
+不是我便是你	bu shi wo bian shi ni
+不是撐船手休來弄竹竿	bu shi cheng chuan shou xiu lai nong zhu gan
+不櫛進士	bu jie jin shi
+不櫛進士	bu zhi jin shi
+不法行為	bu fa xing wei
+不為五斗米折腰	bu wei wu dou mi zhe yao
+不為人下	bu wei ren xia
+不為人用	bu wei ren yong
+不為利誘	bu wei li you
+不為已甚	bu wei yi shen
+不為所動	bu wei suo dong
+不為福始不為禍先	bu wei fu shi bu wei huo xian
+不為米折腰	bu wei mi zhe yao
+不為過	bu wei guo
+不為難	bu wei nan
+不犯著	bu fan zhao
+不用著急	bu yong zhao ji
+不痴不聾不作家翁	bu chi bu long bu zuo jia weng
+不登高山不顯平地	bu deng gao shan bu xian ping di
+不相為謀	bu xiang wei mou
+不知就裡	bu zhi jiu li
+不知葫蘆裡賣甚麼藥	bu zhi hu lu li mai shen me yao
+不聽老人言吃虧在眼前	bu ting lao ren yan chi kui zai yan qian
+不能為	bu neng wei
+不著一字	bu zhuo yi zi
+不著不落	bu zhuo bu luo
+不著人	bu zhuo ren
+不著家	bu zhuo jia
+不著家人弄不得家鬼	bu zhao jia ren nong bu de jia gui
+不著忙	bu zhao mang
+不著急	bu zhao ji
+不著情	bu zhuo qing
+不著意	bu zhuo yi
+不著疼熱	bu zhuo teng re
+不著痕跡	bu zhuo hen ji
+不著痛癢	bu zhuo tong yang
+不著筋節	bu zhuo jin jie
+不著腳	bu zhuo jiao
+不著要	bu zhuo yao
+不著親	bu zhuo qin
+不著調	bu zhuo diao
+不著邊際	bu zhuo bian ji
+不著領頂兒	bu zhuo ling ding er
+不著頭頂兒	bu zhuo tou ding er
+不說不笑不打不叫	bu shuo bu xiao bu da bu jiao
+不論天有眼但管地無皮	bu lun tian you yan dan guan di wu pi
+不負眾望	bu fu zhong wang
+不足為外人道	bu zu wei wai ren dao
+不足為奇	bu zu wei qi
+不足為怪	bu zu wei guai
+不足為慮	bu zu wei lv
+不足為憑	bu zu wei ping
+不足為據	bu zu wei ju
+不足為訓	bu zu wei xun
+不足為道	bu zu wei dao
+不鳴則已一鳴驚人	bu ming ze yi yi ming jing ren
+丟下瓦磚兒一個個要著地	diu xia wa zhua er yi ge ge yao zhuo di
+丟下瓦磚兒一個個要著地	diu xia wa zhuan er yi ge ge yao zhuo di
+丟入爪哇國裡	diu ru zhao wa guo li
+中沙群島	zhong sha qun dao
+中看不中吃	zhong kan bu zhong chi
+中筋麵粉	zhong jin mian fen
+中華兒童暨家庭扶助基金會	zhong hua er tong ji jia ting fu zhu ji jin hui
+中華民國資訊產品反仿冒聯盟	zhong hua min guo zi xun chan pin fan fang mao lian meng
+中華民國資訊軟體協會	zhong hua min guo zi xun ruan ti xie hui
+中華民國開國紀念日	zhong hua min guo kai guo ji nian ri
+丹脣啟秀	dan chun qi xiu
+么二三的	yao er san de
+么麼小丑	yao mo xiao chou
+乍著膽子	zha zhe dan zi
+乘偽行詐	cheng wei xing zha
+乾吊著下巴	gan diao zhe xia ba
+乾打雷不下雨	gan da lei bu xia yu
+乾著急	gan zhao ji
+事不關心關心者亂	shi bu guan xin guan xin zhe luan
+事在人為	shi zai ren wei
+二不稜登	er bu leng deng
+二屋裡	er wu li
+二次汙染	er ci wu ran
+二豎為虐	er shu wei nve
+二韃子吃螺螄	er da zi chi luo si
+互相為謀	hu xiang wei mou
+五不五六不六	wu bu wu liu bu liu
+亞速群島	ya su qun dao
+人不像人鬼不像鬼	ren bu xiang ren gui bu xiang gui
+人來投主鳥來投林	ren lai tou zhu niao lai tou lin
+人受一口氣佛受一爐香	ren shou yi kou qi fo shou yi lu xiang
+人善得人欺馬善得人騎	ren shan de ren qi ma shan de ren qi
+人在江湖身不由己	ren zai jiang hu shen bu you ji
+人外有人天外有天	ren wai you ren tian wai you tian
+人多勢眾	ren duo shi zhong
+人往高處去水往低處流	ren wang gao chu qu shui wang di chu liu
+人心似鐵官法如爐	ren xin si tie guan fa ru lu
+人心齊泰山移	ren xin qi tai shan yi
+人才出眾	ren cai chu zhong
+人是衣妝佛是金妝	ren shi yi zhuang fo shi jin zhuang
+人是衣裳馬是鞍	ren shi yi shang ma shi an
+人是鐵飯是鋼	ren shi tie fan shi gang
+人有失手馬有亂蹄	ren you shi shou ma you luan ti
+人滿為患	ren man wei huan
+人為刀俎我為魚肉	ren wei dao zu wo wei yu rou
+人為財死鳥為食亡	ren wei cai si niao wei shi wang
+人無剛骨安身不牢	ren wu gang gu an shen bu lao
+人無害虎心虎有傷人意	ren wu hai hu xin hu you shang ren yi
+人爭一口氣佛受一爐香	ren zheng yi kou qi fo shou yi lu xiang
+人的名兒樹的影兒	ren de ming er shu de ying er
+人眾勝天	ren zhong sheng tian
+人而無信不知其可	ren er wu xin bu zhi qi ke
+人自為戰	ren zi wei zhan
+人過留名雁過留聲	ren guo liu ming yan guo liu sheng
+人非聖賢誰能無過	ren fei sheng xian shei neng wu guo
+人非草木誰能無情	ren fei cao mu shei neng wu qing
+今日三明日四	jin ri san ming ri si
+他山之石可以攻錯	ta shan zhi shi ke yi gong cuo
+代為說項	dai wei shuo xiang
+以人為鑑	yi ren wei jian
+以假為真	yi jia wei zhen
+以其昏昏使人昭昭	yi qi hun hun shi ren zhao zhao
+以古為鑑	yi gu wei jian
+以寡擊眾	yi gua ji zhong
+以寡敵眾	yi gua di zhong
+以小人之心度君子之腹	yi xiao ren zhi xin duo jun zi zhi fu
+以少克眾	yi shao ke zhong
+以攻為守	yi gong wei shou
+以日為年	yi ri wei nian
+以日為歲	yi ri wei sui
+以牙還牙以眼還眼	yi ya huan ya yi yan huan yan
+以白為黑	yi bai wei hei
+以眾克寡	yi zhong ke gua
+以筌為魚	yi quan wei yu
+以耳為目	yi er wei mu
+以規為瑱	yi gui wei tian
+以退為進	yi tui wei jin
+以鄰為壑	yi lin wei huo
+任性妄為	ren xing wang wei
+伊府麵	yi fu mian
+估著眼	gu zhe yan
+但得一片橘皮吃且莫忘了洞庭湖	dan de yi pian ju pi chi qie mo wang le dong ting hu
+但知其一不知其二	dan zhi qi yi bu zhi qi er
+但知行好事莫要問前程	dan zhi xing hao shi mo yao wen qian cheng
+低筋麵粉	di jin mian fen
+何所不為	he suo bu wei
+何樂不為	he le bu wei
+何足為奇	he zu wei qi
+佛在心頭坐酒肉腑腸過	fo zai xin tou zuo jiu rou fu chang guo
+佛是金裝人是衣裝	fo shi jin zhuang ren shi yi zhuang
+佛要金裝人要衣裝	fo yao jin zhuang ren yao yi zhuang
+佛頭著糞	fo tou zhuo fen
+作為犯	zuo wei fan
+佼佼不群	jiao jiao bu qun
+來是是非人去是是非者	lai shi shi fei ren qu shi shi fei zhe
+來者不懼懼者不來	lai zhe bu ju ju zhe bu lai
+來說是非者便是是非人	lai shuo shi fei zhe bian shi shi fei ren
+侍巾櫛	shi jin jie
+侍巾櫛	shi jin zhi
+侵權行為	qin quan xing wei
+信以為真	xin yi wei zhen
+倒吃甘蔗	dao chi gan zhe
+倒枕捶床	dao zhen chui chuang
+倒枕搥床	dao zhen chui chuang
+倒果為因	dao guo wei yin
+倒灶八字	dao zao ba zi
+倚多為勝	yi duo wei sheng
+倜儻不群	ti tang bu qun
+假期憂鬱症候群	jia qi you yu zheng hou qun
+偏差行為	pian cha xing wei
+做我不著	zuo wo bu zhao
+偶一為之	ou yi wei zhi
+偷著浮生半日閒	tou zhao fu sheng ban ri xian
+偷雞不著蝕把米	tou ji bu zhao shi ba mi
+偽君子	wei jun zi
+偽國民政府	wei guo min zheng fu
+偽政權	wei zheng quan
+偽滿洲國	wei man zhou guo
+偽組織	wei zu zhi
+偽維新政府	wei wei xin zheng fu
+偽臨時政府	wei lin shi zheng fu
+偽裝滲透	wei zhuang shen tou
+偽造文書	wei zao wen shu
+傲視群倫	ao shi qun lun
+傲視群雄	ao shi qun xiong
+傳神秘要	chuan shen mi yao
+傻裡傻氣	sha li sha qi
+僕僮成群	pu tong cheng qun
+僧不僧俗不俗	seng bu seng su bu su
+儘裡邊兒	jin li bia er
+儘裡邊兒	jin li bian er
+先下手為強	xian xia shou wei qiang
+先下米先吃飯	xian xia mi xian chi fan
+先入為主	xian ru wei zhu
+先吾著鞭	xian wu zhuo bian
+先睹為快	xian du wei kuai
+光不光糙不糙	guang bu guang cao bu cao
+光周期	guang zhou qi
+光棍不吃眼前虧	guang gun bu chi yan qian kui
+光著眼	guang zhe yan
+兔子不吃窩邊草	tu zi bu chi wo bian cao
+兔死狐悲物傷其類	tu si hu bei wu shang qi lei
+党太尉吃匾食	dang tai wei chi bian shi
+兜著豆子尋鍋	dou zhe dou zi xun guo
+入土為安	ru tu wei an
+內無糧草外無救兵	nei wu liang cao wai wu jiu bing
+內行星	nei xing xing
+內行看門道外行看熱鬧	nei hang kan men dao wai hang kan re nao
+兩下裡	liang xia li
+兩國相爭不斬來使	liang guo xiang zheng bu zhan lai shi
+兩處為難	liang chu wei nan
+兩頭不著	liang tou bu zhao
+兩頭白麵	liang tou bai mian
+八棍子撂不著	ba gun zi liao bu zhao
+八竿子打不著	ba gan zi da bu zhao
+公墓裡放鞭炮	gong mu li fang bian pao
+公眾人物	gong zhong ren wu
+公眾傳播	gong zhong chuan bo
+公眾參與	gong zhong can yu
+公眾衛生	gong zhong wei sheng
+公示行為	gong shi xing wei
+公而忘私國而忘家	gong er wang si guo er wang jia
+公職人員財產申報法	gong zhi ren yuan cai chan shen bao fa
+公說公有理婆說婆有理	gong shuo gong you li po shuo po you li
+公門裡好修行	gong men li hao xiu xing
+六四天安門事件	liu si tian an men shi jian
+六四慘案	liu si can an
+六月債還得快	liu yue zhai huan de kuai
+共為脣齒	gong wei chun chi
+兵來將敵水來土堰	bing lai jiang di shui lai tu yan
+兵來將迎水來土堰	bing lai jiang ying shui lai tu yan
+兵對兵將對將	bing dui bing jiang dui jiang
+兵馬不動糧草先行	bing ma bu dong liang cao xian xing
+其身不正雖令不從	qi shen bu zheng sui ling bu cong
+兼容並蓄	jian rong bing xu
+兼收並蓄	jian shou bing xu
+兼籌並顧	jian chou bing gu
+兼聽則明偏聽則蔽	jian ting ze ming pian ting ze bi
+再啟者	zai qi zhe
+冤各有頭債各有主	yuan ge you tou zhai ge you zhu
+冥子裡	ming zi li
+冷在三九熱在中伏	leng zai san jiu re zai zhong fu
+冷地裡	leng di li
+冷手撾不著熱饅首	leng shou zhua bu zhao re man shou
+冷灰裡爆出火來	leng hui li bao chu huo lai
+冷灶上著一把兒熱灶上著一把兒	leng zao shang zhao yi ba er re zao shang zhao yi ba er
+冷灶清鍋	leng zao qing guo
+冷鍋裡爆豆	leng guo li bao dou
+凶巴巴	xiong ba ba
+凶殺案	xiong sha an
+凶相畢露	xiong xiang bi lu
+出家人吃八方	chu jia ren chi ba fang
+出群拔萃	chu qun ba cui
+出類拔群	chu lei ba qun
+出類超群	chu lei chao qun
+刀削麵	dao xiao mian
+分而為二	fen er wei er
+刑不上大夫	xing bu shang da fu
+刓方為圓	wan fang wei yuan
+別裁偽體	bie cai wei ti
+到三不著兩	dao san bu zhuo liang
+到處為家	dao chu wei jia
+刺頭泥裡陷	ci tou ni li xian
+刻木為吏	ke mu wei li
+削方為圓	xue fang wei yuan
+削木為吏	xue mu wei li
+削觚為圓	xue gu wei yuan
+削髮為僧	xue fa wei seng
+前不巴村後不著店	qian bu ba cun hou bu zhao dian
+前車覆後車戒	qian ju fu hou ju jie
+前車覆後車戒	qian che fu hou che jie
+創業難守成難	chuang ye nan shou cheng nan
+劃地為王	hua di wei wang
+劈心裡	pi xin li
+劈拉著腿坐崖頭	pi la zhe tui zuo yai tou
+力排眾議	li pai zhong yi
+功不成名不就	gong bu cheng ming bu jiu
+加拉巴哥群島	jia la ba ge qun dao
+加羅林群島	jia luo lin qun dao
+加那列群島	jia na lie qun dao
+助人為樂	zhu ren wei le
+助桀為虐	zhu jie wei nve
+助紂為虐	zhu zhou wei nve
+勉為其難	mian wei qi nan
+動員戡亂時期臨時條款	dong yuan kan luan shi qi lin shi tiao kuan
+動眾勞師	dong zhong lao shi
+勞師動眾	lao shi dong zhong
+勤是搖錢樹儉是聚寶盆	qin shi yao qian shu jian shi ju bao pen
+勿以善小而不為	wu yi shan xiao er bu wei
+勿以惡小而為之	wu yi e xiao er wei zhi
+包谷花	bao gu hua
+化干戈為玉帛	hua gan ge wei yu bo
+化整為零	hua zheng wei ling
+化敵為友	hua di wei you
+化暗為明	hua an wei ming
+化為泡影	hua wei pao ying
+化為烏有	hua wei wu you
+化繁為簡	hua fan wei jian
+化腐朽為神奇	hua fu xiu wei shen qi
+化險為夷	hua xian wei yi
+化零為整	hua ling wei zheng
+化鴟為鳳	hua chi wei feng
+北人乘馬南人乘舟	bei ren cheng ma nan ren cheng zhou
+匣裡龍吟	xia li long yin
+匹夫無罪懷璧其罪	pi fu wu zui huai bi qi zui
+匹夫無罪懷璧為罪	pi fu wu zui huai bi wei zui
+匹頭裡	pi tou li
+十個指頭咬著都痛	shi ge zhi tou yao zhe dou tong
+十個指頭朝裡彎	shi ge zhi tou chao li wan
+十室之邑必有忠信	shi shi zhi yi bi you zhong xin
+十年樹木百年樹人	shi nian shu mu bai nian shu ren
+十年河東十年河西	shi nian he dong shi nian he xi
+十捉九著	shi zhuo jiu zhao
+十日一水五日一石	shi ri yi shui wu ri yi shi
+十步之內必有芳草	shi bu zhi nei bi you fang cao
+十目所視十手所指	shi mu suo shi shi shou suo zhi
+千島群島	qian dao qun dao
+千百成群	qian bai cheng qun
+千里做官為的吃穿	qian li zuo guan wei de chi chuan
+半夜敲門不吃驚	ban ye qiao men bu chi jing
+半夜裡叫城門	ban ye li jiao cheng men
+半為憐春半惱春	ban wei lian chun ban nao chun
+半空裡	ban kong li
+半空裡翻觔斗	ban kong li fan jin dou
+半素食族群	ban su shi zu qun
+卓然不群	zhuo ran bu qun
+卓爾不群	zhuo er bu qun
+卓爾出群	zhuo er chu qun
+卓絕群倫	zhuo jue qun lun
+卓越超群	zhuo yue chao qun
+南上天北上地	nan shang tian bei shang di
+南人駕船北人乘馬	nan ren jia chuan bei ren cheng ma
+南斯拉夫社會主義聯邦共和國	nan si la fu she hui zhu yi lian bang gong he guo
+南樓詠謔	nan lou yong nve
+南沙群島	nan sha qun dao
+南洋群島	nan yang qun dao
+南面為王	nan mian wei wang
+博愛濟群	bo ai ji qun
+博施濟眾	bo shi ji zhong
+博覽群書	bo lan qun shu
+占為己有	zhan wei ji you
+占著茅坑不拉屎	zhan zhe mao keng bu la shi
+即以其人之道還治其人之身	ji yi qi ren zhi dao huan zhi qi ren zhi shen
+卿大夫	qing da fu
+去偽存真	qu wei cun zhen
+又好笑又好氣	you hao xiao you hao qi
+又要馬兒好又要馬兒不吃草	you yao ma er hao you yao ma er bu chi cao
+反客為主	fan ke wei zhu
+反敗為勝	fan bai wei sheng
+反賓為主	fan bin wei zhu
+取之無禁用之不竭	qu zhi wu jin yong zhi bu jie
+受人之託忠人之事	shou ren zhi tuo zhong ren zhi shi
+古今多少事都付笑談中	gu jin duo shao shi dou fu xiao tan zhong
+古拉格群島	gu la ge qun dao
+古為今用	gu wei jin yong
+古裡古怪	gu li gu guai
+另起爐灶	ling qi lu zao
+叫天天不應叫地地不靈	jiao tian tian bu ying jiao di di bu ling
+召之即來揮之即去	zhao zhi ji lai hui zhi ji qu
+可與共患難不可與共樂	ke yu gong huan nan bu ke yu gong le
+可著頭做帽子	ke zhe tou zuo mao zi
+吃一塹長一智	chi yi qian zhang yi zhi
+吃一看二	chi yi kan er
+吃一頓挨一頓	chi yi dun ai yi dun
+吃不上	chi bu shang
+吃不下	chi bu xia
+吃不了	chi bu liao
+吃不了兜著走	chi bu liao dou zhe zou
+吃不住	chi bu zhu
+吃不來	chi bu lai
+吃不完兜著走	chi bu wan dou zhe zou
+吃不得	chi bu de
+吃不得慢酒	chi bu de man jiu
+吃不得緊酒	chi bu de jin jiu
+吃不服	chi bu fu
+吃不消	chi bu xiao
+吃不開	chi bu kai
+吃乾醋	chi gan cu
+吃了秤砣	chi le cheng tuo
+吃了蜜蜂兒屎似的	chi le mi feng er shi si de
+吃人一個蛋恩情無法斷	chi ren yi ge dan en qing wu fa duan
+吃人不吐骨	chi ren bu tu gu
+吃人不吐骨頭	chi ren bu tu gu tou
+吃人兒的	chi re er de
+吃人兒的	chi ren er de
+吃人的嘴軟拿人的手短	chi ren de zui ruan na ren de shou duan
+吃人蟲	chi ren chong
+吃偏食	chi pian shi
+吃偏飯	chi pian fan
+吃傷了	chi shang le
+吃冤枉	chi yuan wang
+吃到飽	chi dao bao
+吃力不討好	chi li bu tao hao
+吃勞金	chi lao jin
+吃十方	chi shi fang
+吃吃喝喝	chi chi he he
+吃合家歡	chi he jia huan
+吃味兒	chi we er
+吃味兒	chi wei er
+吃啞吧虧	chi ya ba kui
+吃喜酒	chi xi jiu
+吃喝不分	chi he bu fen
+吃喝兒	chi he er
+吃喝嫖賭	chi he piao du
+吃喝拉撒睡	chi he la sa shui
+吃喝玩樂	chi he wan le
+吃回頭草	chi hui tou cao
+吃地面	chi di mian
+吃墨船兒	chi mo chuan er
+吃夜草	chi ye cao
+吃大戶	chi da hu
+吃大鍋飯	chi da guo fan
+吃大項	chi da xiang
+吃太平飯	chi tai ping fan
+吃奶的力氣	chi nai de li qi
+吃子孫飯	chi zi sun fan
+吃官司	chi guan si
+吃寡酒	chi gua jiu
+吃寡醋	chi gua cu
+吃小灶	chi xiao zao
+吃幾碗乾飯	chi ji wan gan fan
+吃床腿	chi chuang tui
+吃後悔藥	chi hou hui yao
+吃得住	chi de zhu
+吃得來	chi de lai
+吃得光	chi de guang
+吃得消	chi de xiao
+吃得苦中苦方為人上人	chi de ku zhong ku fang wei ren shang ren
+吃得開	chi de kai
+吃拜拜	chi bai bai
+吃排落	chi pai luo
+吃排頭	chi pai tou
+吃掛絡兒	chi gua lao er
+吃敲才	chi qiao cai
+吃板刀麵	chi ban dao mian
+吃槍藥	chi qiang yao
+吃死飯	chi si fan
+吃水線	chi shui xian
+吃洋飯	chi yang fan
+吃派飯	chi pai fan
+吃涼不管酸	chi liang bu guan suan
+吃火鍋	chi huo guo
+吃燒餅	chi shao bing
+吃犒勞	chi kao lao
+吃獨食	chi du shi
+吃現成	chi xian cheng
+吃現成飯	chi xian cheng fan
+吃瓦片兒	chi wa pia er
+吃瓦片兒	chi wa pian er
+吃生活	chi sheng huo
+吃生米兒的	chi sheng mi er de
+吃生米兒的	chi sheng mie er de
+吃白食	chi bai shi
+吃白飯	chi bai fan
+吃盡當光	chi jin dang guang
+吃眼前虧	chi yan qian kui
+吃瞪眼兒食	chi deng ya er shi
+吃瞪眼兒食	chi deng yan er shi
+吃硬不吃軟	chi ying bu chi ruan
+吃空茶	chi kong cha
+吃米不知米價	chi mi bu zhi mi jia
+吃紅白口兒	chi hong bai kou er
+吃老本	chi lao ben
+吃自來食	chi zi lai shi
+吃自在飯	chi zi zai fan
+吃舊鍋粥	chi jiu guo zhou
+吃花酒	chi hua jiu
+吃苦耐勞	chi ku nai lao
+吃苦頭	chi ku tou
+吃著碗裡看著鍋裡	chi zhe wan li kan zhe guo li
+吃著自己的飯替人家趕獐子	chi zhe zi ji de fan ti ren jia gan zhang zi
+吃葷飯	chi hun fan
+吃蔥吃蒜不吃薑	chi cong chi suan bu chi jiang
+吃虧就是占便宜	chi kui jiu shi zhan pian yi
+吃螺絲	chi luo si
+吃衙門飯	chi ya men fan
+吃裡扒外	chi li pa wai
+吃裡爬外	chi li pa wai
+吃角子老虎	chi jiao zi lao hu
+吃豆腐	chi dou fu
+吃賠賬	chi pei zhang
+吃軟不吃硬	chi ruan bu chi ying
+吃辣麵	chi la mian
+吃醋拈酸	chi cu nian suan
+吃醋撚酸	chi cu nian suan
+吃醋爭風	chi cu zheng feng
+吃釘子	chi ding zi
+吃釘板	chi ding ban
+吃錯藥	chi cuo yao
+吃閉門羹	chi bi men geng
+吃開口飯	chi kai kou fan
+吃閒話	chi xian hua
+吃順不吃搶	chi shun bu chi qiang
+吃飛醋	chi fei cu
+吃飯傢伙	chi fan jia huo
+吃飯別忘了種穀人	chi fan bie wang le zhong gu ren
+吃飯家伙	chi fan jia huo
+吃飯防噎	chi fan fang ye
+吃飽了飯撐的	chi bao le fan cheng de
+吃飽飯沒事做	chi bao fan mei shi zuo
+吃館子	chi guan zi
+吃香喝辣	chi xiang he la
+吃鴨蛋	chi ya dan
+吃黑棗兒	chi hei zao er
+吃黑飯護漆柱	chi hei fan hu qi zhu
+吃齋唸佛	chi zhai nian fo
+各人自掃檐前雪莫管他家瓦上霜	ge ren zi sao yan qian xue mo guan ta jia wa shang shuang
+各人自掃門前雪休管他人瓦上霜	ge ren zi sao men qian xue xiu guan ta ren wa shang shuang
+各人自掃門前雪莫管他家瓦上霜	ge ren zi sao men qian xue mo guan ta jia wa shang shuang
+各為其主	ge wei qi zhu
+各自為戰	ge zi wei zhan
+各自為政	ge zi wei zheng
+合不著	he bu zhao
+合得著	he de zhao
+合眾國	he zhong guo
+合眾國際社	he zhong guo ji she
+合零為整	he ling wei zheng
+吊在麵糊盆內	diao zai mian hu pen nei
+吊桶落在井裡	diao tong luo zai jing li
+吊著鍋子底	diao zhe guo zi di
+同床各夢	tong chuang ge meng
+同床異夢	tong chuang yi meng
+同流合汙	tong liu he wu
+君子一言快馬一鞭	jun zi yi yan kuai ma yi bian
+君子一言駟馬難追	jun zi yi yan si ma nan zhui
+君子動口小人動手	jun zi dong kou xiao ren dong shou
+君子坦蕩蕩小人長戚戚	jun zi tan dang dang xiao ren chang qi qi
+含垢納汙	han gou na wu
+含著骨頭露著肉	han zhe gu tou lou zhe rou
+呆著臉	dai zhe lian
+呆裡撒奸	dai li sa jian
+周年視差	zhou nian shi cha
+周郎妙計高天下賠了夫人又折兵	zhou lang miao ji gao tian xia pei le fu ren you zhe bing
+呼么喝六	hu yao he liu
+呼之即至揮之即去	hu zhi ji zhi hui zhi ji qu
+和尚吃八方	he shang chi ba fang
+和尚在缽盂在	he shang zai bo yu zai
+和尚跟著月亮走	he shang gen zhe yue liang zou
+咬群的騾子	yao qun de luo zi
+哪裡摔倒哪裡爬	na li shuai dao na li pa
+哭喪著臉	ku sang zhe lian
+哲夫成城哲婦傾城	zhe fu cheng cheng zhe fu qing cheng
+唐胖子吊在醋缸裡	tang pang zi diao zai cu gang li
+啞子吃黃蓮	ya zi chi huang lian
+啞巴吃黃蓮	ya ba chi huang lian
+啟動程式	qi dong cheng shi
+啟手足	qi shou zu
+啟發式教學法	qi fa shi jiao xue fa
+啟發性程式	qi fa xing cheng shi
+啟示錄	qi shi lu
+啟蒙哲學	qi meng zhe xue
+啟蒙時代	qi meng shi dai
+啟蒙運動	qi meng yun dong
+善自為謀	shan zi wei mou
+喝六呼么	he liu hu yao
+喝茅成劍撒豆成兵	he mao cheng jian sa dou cheng bing
+喪著臉	sang zhe lian
+喫著不盡	chi zhuo bu jin
+喫虧的是乖占便宜的是獃	chi kui de shi guai zhan pian yi de shi dai
+喫虱子留後腿	chi shi zi liu hou tui
+喬做胡為	qiao zuo hu wei
+單人床	dan ren chuang
+單注著	dan zhu zhe
+單獨行為	dan du xing wei
+嘀裡嘟嚕	di li du lu
+嘆為觀止	tan wei guan zhi
+嘴上無毛辦事不牢	zui shang wu mao ban shi bu lao
+嘴吃屎	zui chi shi
+噪音汙染	zao yin wu ran
+四下裡	si xia li
+四海為家	si hai wei jia
+回家吃自己	hui jia chi zi ji
+因樹為屋	yin shu wei wu
+因禍為福	yin huo wei fu
+國家地震工程研究中心	guo jia di zhen gong cheng yan jiu zhong xin
+國家興亡匹夫有責	guo jia xing wang pi fu you ze
+國家行為主義	guo jia xing wei zhu yi
+國家資訊通信基本建設	guo jia zi xun tong xin ji ben jian she
+國家資訊通信基本建設推動小組	guo jia zi xun tong xin ji ben jian she tui dong xiao zu
+國有國法家有家規	guo you guo fa jia you jia gui
+國科會同步輻射研究中心	guo ke hui tong bu fu she yan jiu zhong xin
+國科會國家高速電腦中心	guo ke hui guo jia gao su dian nao zhong xin
+國科會國家高速電腦中心圖書館	guo ke hui guo jia gao su dian nao zhong xin tu shu guan
+國科會太空計畫室籌備處	guo ke hui tai kong ji hua shi chou bei chu
+國科會毫微米元件實驗室	guo ke hui hao wei mi yuan jian shi yan shi
+國際百科資料供應業務	guo ji bai ke zi liao gong ying ye wu
+圖為不軌	tu wei bu gui
+團沙群島	tuan sha qun dao
+土壤汙染	tu rang wu ran
+土裡土氣	tu li tu qi
+在人矮簷下怎敢不低頭	zai ren ai yan xia zen gan bu di tou
+地裡鬼	di li gui
+坐不改姓行不改名	zuo bu gai xing xing bu gai ming
+坐吃山崩	zuo chi shan beng
+坐吃山空	zuo chi shan kong
+坐吃山空立吃地陷	zuo chi shan kong li chi di xian
+坐床富貴	zuo chuang fu gui
+坐床撒帳	zuo chuang sa zhang
+坦腹東床	tan fu dong chuang
+執巾櫛	zhi jin jie
+執巾櫛	zhi jin zhi
+堂屋裡掛草薦	tang wu li gua cao jian
+堆疊式智慧型乙太網路集線器	dui die shi zhi hui xing yi tai wang lu ji xian qi
+塞車症候群	sai che zheng hou qun
+墨西哥合眾國	mo xi ge he zhong guo
+墩葫蘆摔馬杓	dun hu lu shuai ma shao
+壓倒群雄	ya dao qun xiong
+壓良為賤	ya liang wei jian
+士為知己者死	shi wei zhi ji zhe si
+壺裡乾坤	hu li qian kun
+壽星吃砒霜	shou xing chi pi shuang
+外合裡差	wai he li cha
+外合裡應	wai he li ying
+外屋裡的灶君爺	wai wu li de zao jun ye
+外明不知裡暗	wai ming bu zhi li an
+夙夜為謀	su ye wei mou
+多文為富	duo wen wei fu
+夜雨對床	ye yu dui chuang
+夢裡蝴蝶	meng li hu die
+大事化小小事化無	da shi hua xiao xiao shi hua wu
+大事化為小事小事化為沒事	da shi hua wei xiao shi xiao shi hua wei mei shi
+大利比亞阿拉伯人民社會主義群眾國	da li bi ya a la bo ren min she hui zhu yi qun zhong guo
+大古裡彩	dai gu li cai
+大吃一驚	da chi yi jing
+大吃大喝	da chi da he
+大吃大嚼	da chi da jiao
+大安地列斯群島	da an di lie si qun dao
+大專女生軍事訓練班	da zhuan nv sheng jun shi xun lian ban
+大年夜吃餃子	da nian ye chi jiao zi
+大庭廣眾	da ting guang zhong
+大有作為	da you zuo wei
+大有可為	da you ke wei
+大有為	da you wei
+大杖則走小杖則受	da zhang ze zou xiao zhang ze shou
+大氣汙染	da qi wu ran
+大海裡撈針	da hai li lao zhen
+大滷麵	da lu mian
+大為受用	da wei shou yong
+大為失望	da wei shi wang
+大白日裡借不出個乾燈盞來	da bai ri li jie bu chu ge gan deng zhan lai
+大眾傳播	da zhong chuan bo
+大眾傳播媒體	da zhong chuan bo mei ti
+大眾公司	da zhong gong si
+大眾化	da zhong hua
+大眾媒介	da zhong mei jie
+大眾指導法	da zhong zhi dao fa
+大眾捷運系統	da zhong jie yun xi tong
+大眾文化	da zhong wen hua
+大眾文學	da zhong wen xue
+大眾社會	da zhong she hui
+大眾語	da zhong yu
+大眾運輸	da zhong yun shu
+大眾部	da zhong bu
+大秤分金銀大碗吃酒肉	da cheng fen jin yin da wan chi jiu rou
+大缸裡翻油沿路拾芝麻	da gang li fan you yan lu shi zhi ma
+大腸桿菌群	da chang gan jun qun
+大膽妄為	da dan wang wei
+大處著眼	da chu zhuo yan
+大處著眼小處著手	da chu zhuo yan xiao chu zhuo shou
+大蟲不吃伏肉	da chong bu chi fu rou
+大蟲口裡倒涎	da chong kou li dao xian
+大蟲吃小蟲	da chong chi xiao chong
+大象口裡拔生牙	da xiang kou li ba sheng ya
+大難不死必有厚祿	da nan bu si bi you hou lu
+大風吹倒梧桐樹自有旁人說短長	da feng chui dao wu tong shu zi you pang ren shuo duan chang
+大魚吃小魚	da yu chi xiao yu
+大魚吃小魚小魚吃蝦米	da yu chi xiao yu xiao yu chi xia mi
+天上少有地下無雙	tian shang shao you di xia wu shuang
+天下不如意事十常八九	tian xia bu ru yi shi shi chang ba jiu
+天下本無事庸人自擾之	tian xia ben wu shi yong ren zi rao zhi
+天下沒有白吃的午餐	tian xia mei you bai chi de wu can
+天下為一	tian xia wei yi
+天下為公	tian xia wei gong
+天下為家	tian xia wei jia
+天下興亡匹夫有責	tian xia xing wang pi fu you ze
+天不著風兒晴不的	tian bu zhuo feng er qing bu de
+天不蓋地不載	tian bu gai di bu zai
+天作孽猶可違自作孽不可活	tian zuo nie you ke wei zi zuo nie bu ke huo
+天塌下來自有長的撐住	tian ta xia lai zi you chang de cheng zhu
+天塌了有地接著	tian ta le you di jie zhe
+天安門事件	tian an men shi jian
+天時不如地利地利不如人和	tian shi bu ru di li di li bu ru ren he
+天機不可洩漏	tian ji bu ke xie lou
+天無二日土無二王	tian wu er ri tu wu er wang
+天無二日民無二王	tian wu er ri min wu er wang
+天狗吃月	tian gou chi yue
+天秤座	tian cheng zuo
+天行健君子以自強不息	tian xing jian jun zi yi zi qiang bu xi
+天要落雨娘要嫁人	tian yao luo yu niang yao jia ren
+天雨粟馬生角	tian yu su ma sheng jiao
+天靈靈地靈靈	tian ling ling di ling ling
+太平本是將軍定不許將軍見太平	tai ping ben shi jiang jun ding bu xu jiang jun jian tai ping
+失之東隅收之桑榆	shi zhi dong yu shou zhi sang yu
+夷為平地	yi wei ping di
+夾著尾巴	jia zhe wei ba
+奈及利亞聯邦共和國	nai ji li ya lian bang gong he guo
+奉為圭臬	feng wei gui nie
+奉為楷模	feng wei kai mo
+奓著膽子	zha zhe dan zi
+奮發有為	fen fa you wei
+女為悅己容	nv wei yue ji rong
+女為悅己者容	nv wei yue ji zhe rong
+奶媽懷裡的孩子	nai ma huai li de hai zi
+好借好還再借不難	hao jie hao huan zai jie bu nan
+好借好還再借不難	hao jie hao hai zai jie bu nan
+好吃懶做	hao chi lan zuo
+好漢不吃眼前虧	hao han bu chi yan qian kui
+好為人師	hao wei ren shi
+好男不吃分家飯好女不穿嫁時衣	hao nan bu chi fen jia fan hao nv bu chuan jia shi yi
+好自為之	hao zi wei zhi
+好話不背人背人沒好話	hao hua bu bei ren bei ren mei hao hua
+好貨不便宜便宜沒好貨	hao huo bu pian yi pian yi mei hao huo
+好馬不吃回頭草	hao ma bu chi hui tou cao
+如聞其聲如見其容	ru wen qi sheng ru jian qi rong
+妖術惑眾	yao shu huo zhong
+妖裡妖氣	yao li yao qi
+妖言惑眾	yao yan huo zhong
+妻不如妾妾不如偷	qi bu ru qie qie bu ru tou
+姑妄言之姑妄聽之	gu wang yan zhi gu wang ting zhi
+姥姥不疼舅舅不愛	lao lao bu teng jiu jiu bu ai
+婆婆口絮媳婦耳頑	po po kou xu xi fu er wan
+嬰兒猝死症候群	ying er cu si zheng hou qun
+子大夫	zi da fu
+子為父隱	zi wei fu yin
+字裡行間	zi li hang jian
+孚眾望	fu zhong wang
+孢子囊群	bao zi nang qun
+孤力難為	gu li nan wei
+它山之石可以為錯	tuo shan zhi shi ke yi wei cuo
+守著鼻子抹著腮	shou zhe bi zi mo zhe sai
+安地列斯群島	an di lie si qun dao
+安娜卡列尼娜	an na ka lie ni na
+安民恤眾	an min xu zhong
+安達曼群島	an da man qun dao
+官官相為	guan guan xiang wei
+官差吏差來人不差	guan cha li cha lai ren bu cha
+宰相肚裡好撐船	zai xiang du li hao cheng chuan
+害人之心不可有防人之心不可無	hai ren zhi xin bu ke you fang ren zhi xin bu ke wu
+害群之馬	hai qun zhi ma
+家庭汙水	jia ting wu shui
+家庭汙水管	jia ting wu shui guan
+家庭病床	jia ting bing chuang
+家有患難鄰保相助	jia you huan nan lin bao xiang zhu
+家無主屋倒豎	jia wu zhu wu dao shu
+家裡的	jia li de
+家貧不是貧路貧愁煞人	jia pin bu shi pin lu pin chou sha ren
+家貧不是貧路貧貧殺人	jia pin bu shi pin lu pin pin sha ren
+家貧顯孝子國難識忠臣	jia pin xian xiao zi guo nan shi zhong chen
+家長裡短	jia chang li duan
+寅吃卯糧	yin chi mao liang
+富貴不歸故鄉如衣繡夜行	fu gui bu gui gu xiang ru yi xiu ye xing
+察察為明	cha cha wei ming
+寡不敵眾	gua bu di zhong
+寧人負我無我負人	ning ren fu wo wu wo fu ren
+寧可信其有不可信其無	ning ke xin qi you bu ke xin qi wu
+寧可玉碎不為瓦全	ning ke yu sui bu wei wa quan
+寧可玉碎不能瓦全	ning ke yu sui bu neng wa quan
+寧吃過頭飯莫說過頭話	ning chi guo tou fan mo shuo guo tou hua
+寧吃開眉粥不吃愁眉飯	ning chi kai mei zhou bu chi chou mei fan
+寧在人前全不會莫在人前會不全	ning zai ren qian quan bu hui mo zai ren qian hui bu quan
+寧塞城門不填狗洞	ning sai cheng men bu tian gou dong
+寧教我負天下人休教天下人負我	ning jiao wo fu tian xia ren xiu jiao tian xia ren fu wo
+寧為太平犬莫作亂離人	ning wei tai ping quan mo zuo luan li ren
+寧為玉碎不為瓦全	ning wei yu sui bu wei wa quan
+寧為雞口不為牛後	ning wei ji kou bu wei niu hou
+寧為雞口無為牛後	ning wei ji kou wu wei niu hou
+寧買不值不買吃食	ning mai bu zhi bu mai chi shi
+寧走十步遠不走一步險	ning zou shi bu yuan bu zou yi bu xian
+寧養逆子不養痴兒	ning yang ni zi bu yang chi er
+寬以待人嚴以律己	kuan yi dai ren yan yi lv ji
+寬大為懷	kuan da wei huai
+寶裡寶氣	bao li bao qi
+射人先射馬擒賊先擒王	she ren xian she ma qin zei xian qin wang
+將在外君命有所不受	jiang zai wai jun ming you suo bu shou
+將軍不下馬各自奔前程	jiang jun bu xia ma ge zi ben qian cheng
+對床夜語	dui chuang ye yu
+對床風雨	dui chuang feng yu
+對著和尚罵賊禿	dui zhe he shang ma zei tu
+小么兒	xiao yao er
+小亂避城大亂避鄉	xiao luan bi cheng da luan bi xiang
+小安地列斯群島	xiao an di lie si qun dao
+小差事兒	xiao chai she er
+小差事兒	xiao chai shi er
+小差事兒	xiao cha shi er
+小時了了大未必佳	xiao shi liao liao da wei bi jia
+小時了了大未必佳	xiao shi le le da wei bi jia
+小有小難大有大難	xiao you xiao nan da you da nan
+小杖則受大杖則走	xiao zhang ze shou da zhang ze zou
+小模樣兒	xiao mu yang er
+小模樣兒	xiao mo yang er
+小樹要砍小孩要管	xiao shu yao kan xiao hai yao guan
+小眾藝術	xiao zhong yi shu
+小笠原群島	xiao li yuan qun dao
+小米麵	xiao mi mian
+小裡小氣	xiao li xiao qi
+少吃無著	shao chi wu zhuo
+少壯不努力老大徒傷悲	shao zhuang bu nu li lao da tu shang bei
+尚有可為	shang you ke wei
+就湯下麵	jiu tang xia mian
+就裡人	jiu li ren
+尺有所短寸有所長	chi you suo duan cun you suo chang
+屁股裡吃人參	pi gu li chi ren shen
+屋無主掃帚顛倒豎	wu wu zhu sao zhou dian dao shu
+屋裡人	wu li ren
+屋裡的	wu li de
+屬毛離裡	zhu mao li li
+山上無老虎猴子稱大王	shan shang wu lao hu hou zi cheng da wang
+山公啟事	shan gong qi shi
+山河易改本性難移	shan he yi gai ben xing nan yi
+山裡紅	shan li hong
+川澤納汙	chuan ze na wu
+巢居知風穴居知雨	chao ju zhi feng xue ju zhi yu
+工尺字兒	gong che ze er
+工尺字兒	gong che zi er
+工尺字兒	gong chi zi er
+工業廢汙	gong ye fei wu
+左不是右不是	zuo bu shi you bu shi
+左右為難	zuo you wei nan
+巧偽不如拙誠	qiao wei bu ru zhuo cheng
+巧婦做不得無麵餺飥	qiao fu zuo bu de wu mian bo tuo
+巧婦難為無米之炊	qiao fu nan wei wu mi zhi chui
+己立立人己達達人	ji li li ren ji da da ren
+巴什吉爾自治共和國	ba shi ji er zi zhi gong he guo
+巴哈馬群島	ba ha ma qun dao
+巴噠著嘴	ba da zhe zui
+巴基斯坦伊斯蘭共和國	ba ji si tan yi si lan gong he guo
+巽他群島	xun ta qun dao
+帆布床	fan bu chuang
+希臘群島	xi la qun dao
+師直為壯	shi zhi wei zhuang
+常將有日思無日莫待無時思有時	chang jiang you ri si wu ri mo dai wu shi si you shi
+幫狗吃食	bang gou chi shi
+幫虎吃食	bang hu chi shi
+平生莫做虧心事半夜敲門不喫驚	ping sheng mo zuo kui xin shi ban ye qiao men bu chi jing
+年年防儉夜夜防賊	nian nian fang jian ye ye fang zei
+年輕有為	nian qing you wei
+幸為先容	xing wei xian rong
+床上功夫	chuang shang gong fu
+床上安床	chuang shang an chuang
+床上施床	chuang shang shi chuang
+床下安床	chuang xia an chuang
+床公床婆	chuang gong chuang po
+床笫之私	chuang zi zhi si
+床頭人	chuang tou ren
+床頭櫃	chuang tou gui
+床頭金盡	chuang tou jin jin
+底腳裡人	di jiao li ren
+康有為	kang you wei
+廚頭灶腦	chu tou zao nao
+廟裡的豬頭	miao li de zhu tou
+廣土眾民	guang tu zhong min
+廣庭大眾	guang ting da zhong
+廣東炒麵	guang dong chao mian
+廣眾大庭	guang zhong da ting
+廣群芳譜	guang qun fang pu
+延地裡	yan di li
+弄刺子兒	long la ze er
+弄刺子兒	nong la zi er
+弄刺子兒	nong ci zi er
+弄鬼妝么	nong gui zhuang yao
+引以為傲	yin yi wei ao
+引以為戒	yin yi wei jie
+引以為榮	yin yi wei rong
+引以為鑑	yin yi wei jian
+引以為鑒	yin yi wei jian
+引虎入羊群	yin hu ru yang qun
+張公吃酒李公醉	zhang gong chi jiu li gong zui
+張天師吃鬼迷	zhang tian shi chi gui mi
+強不知以為知	qiang bu zhi yi wei zhi
+強飯為嘉	qiang fan wei jia
+彈簧床	tan huang chuang
+彈著點	dan zhuo dian
+彼眾我寡	bi zhong wo gua
+往日無冤近日無讎	wang ri wu yuan jin ri wu chou
+往日無讎近日無冤	wang ri wu chou jin ri wu yuan
+往者不可及來者猶可待	wang zhe bu ke ji lai zhe you ke dai
+律設大法理順人情	lv she da fa li shun ren qing
+後不為例	hou bu wei li
+後天免疫缺乏症候群	hou tian mian yi que fa zheng hou qun
+徐光啟	xu guang qi
+得一望十得十望百	de yi wang shi de shi wang bai
+得人者昌失人者亡	de ren zhe chang shi ren zhe wang
+得人錢財與人消災	de ren qian cai yu ren xiao zai
+得寸則寸得尺則尺	de cun ze cun de chi ze chi
+得寸即寸得尺即尺	de cun ji cun de chi ji chi
+從小看大三歲看老	cong xiao kan da san sui kan lao
+御史大夫	yu shi da fu
+循衣摸床	xun yi mo chuang
+徵求啟事	zheng qiu qi shi
+徹裡徹外	che li che wai
+心不愜口不服	xin bu qie kou bu fu
+心戰為上兵戰為下	xin zhan wei shang bing zhan wei xia
+心肝不託著五臟	xin gan bu tuo zhe wu zang
+心裡有個譜	xin li you ge pu
+心裡有數	xin li you shu
+忖著勁兒	cun zhe jing er
+忙家不會會家不忙	mang jia bu hui hui jia bu mang
+忙裡偷閒	mang li tou xian
+忠臣不事二君烈女不更二夫	zhong chen bu shi er jun lie nv bu geng er fu
+快速麵	kuai su mian
+怎麼搞的	ze me gao de
+怎麼著	zen me zhe
+怕見的是怪難躲的是債	pa jian de shi guai nan duo de shi zhai
+急驚風撞著慢郎中	ji jing feng zhuang zhao man lang zhong
+急驚風遇著慢郎中	ji jing feng yu zhao man lang zhong
+性行為	xing xing wei
+性變態行為	xing bian tai xing wei
+怪裡怪氣	guai li guai qi
+怫然不悅	fei ran bu yue
+怫然變色	fei ran bian se
+恣意妄為	zi yi wang wei
+恨小非君子無毒不丈夫	hen xiao fei jun zi wu du bu zhang fu
+恬不為怪	tian bu wei guai
+恬不為意	tian bu wei yi
+恬淡無為	tian dan wu wei
+悶著頭兒幹	men zhe tou er gan
+情人眼裡出西施	qing ren yan li chu xi shi
+惹虱子頭上撓	re shi zi tou shang nao
+意與言會言隨意遣	yi yu yan hui yan sui yi qian
+意裡意思	yi li yi si
+慈悲為懷	ci bei wei huai
+慈悲為本	ci bei wei ben
+慌裡慌張	huang li huang zhang
+慢藏誨盜冶容誨淫	man cang hui dao ye rong hui yin
+慶父不死魯難未已	qing fu bu si lu nan wei yi
+憑高視下勢如劈竹	ping gao shi xia shi ru pi zhu
+應卯吃糧	ying mao chi liang
+應昌期圍棋教育基金會	ying chang qi wei qi jiao yu ji jin hui
+懲一儆眾	cheng yi jing zhong
+懵裡懵懂	meng li meng dong
+懷著身子	huai zhe shen zi
+懷著鬼胎	huai zhe gui tai
+成則為王敗則為虜	cheng ze wei wang bai ze wei lu
+成群作隊	cheng qun zuo dui
+成群打夥	cheng qun da huo
+成群結夥	cheng qun jie huo
+成群結隊	cheng qun jie dui
+成群結黨	cheng qun jie dang
+成者為王敗者為寇	cheng zhe wei wang bai zhe wei kou
+我不入地獄誰入地獄	wo bu ru di yu shei ru di yu
+截斷眾流	jie duan zhong liu
+截蒲為牒	jie pu wei die
+戴著斗笠親嘴	dai zhe dou li qin zui
+戶限為穿	hu xian wei chuan
+所作所為	suo zuo suo wei
+手插魚籃避不得腥	shou cha yu lan bi bu de xing
+手面賺吃	shou mian zhuan chi
+才為世出	cai wei shi chu
+打了牙肚裡嚥	da le ya du li yan
+打是疼罵是愛	da shi teng ma shi ai
+打枕捶床	da zhen chui chuang
+打群架	da qun jia
+打著燈籠沒處找	da zhe deng long mei chu zhao
+打著竄鼓	da zhe cuan gu
+打虎不著反被虎傷	da hu bu zhao fan bei hu shang
+打蛇不死自遺其害	da she bu si zi yi qi hai
+打裡打外	da li da wai
+打裡照外	da li zhao wai
+扭是為非	niu shi wei fei
+扮豬吃老虎	ban zhu chi lao hu
+扯爛汙	che lan wu
+扯著脖子	che zhe bo zi
+承上啟下	cheng shang qi xia
+承先啟後	cheng xian qi hou
+承前啟後	cheng qian qi hou
+技藝超群	ji yi chao qun
+抓子兒	chua ze er
+抓子兒	chua zi er
+抓子兒	zhua zi er
+抓著癢處	zhua zhe yang chu
+折箭為誓	zhe jian wei shi
+披著羊皮的狼	pi zhe yang pi de lang
+抱角床	bao jiao chuang
+抹不著影	mo bu zhao ying
+抹嘴吃	mo zui chi
+拆東牆補西壁	chai dong qiang bu xi bi
+拆爛汙	chai lan wu
+拆爛汙	che lan wu
+拆骨還父割肉還母	chai gu huan fu ge rou huan mu
+拈酸吃醋	nian suan chi cu
+拉便宜手兒	la pian yi shou er
+拉便宜手兒	la bian yi shou er
+拉絆著	la ban zhe
+拔步床	ba bu chuang
+拔群出萃	ba qun chu cui
+拔群出類	ba qun chu lei
+拔萃出群	ba cui chu qun
+拔著短籌	ba zhao duan chou
+拔類超群	ba lei chao qun
+拚死吃河豚	pan si chi he tun
+拳頭上站的人肐膊上走的馬	quan tou shang zhan de ren ge bo shang zou de ma
+拿草棍兒戳老虎的鼻子眼兒	na cao gue er chuo lao hu de bi zi ya er
+拿草棍兒戳老虎的鼻子眼兒	na cao gun er chuo lao hu de bi zi yan er
+拿著腔兒	na zhe qiang er
+拿著雞毛當令箭	na zhe ji mao dang ling jian
+指地為盟	zhi di wei meng
+指天為誓	zhi tian wei shi
+指皂為白	zhi zao wei bai
+指腹為婚	zhi fu wei hun
+指雁為羹	zhi yan wei geng
+指鹿為馬	zhi lu wei ma
+指黑為白	zhi hei wei bai
+按牛頭吃不得草	an niu tou chi bu de cao
+按著三板一眼	an zhe san ban yi yan
+按著葫蘆摳子	an zhe hu lu kou zi
+挑么挑六	tiao yao tiao liu
+挑得籃裡便是菜	tiao de lan li bian shi cai
+振作有為	zhen zuo you wei
+挺拔不群	ting ba bu qun
+捉奸見床	zhuo jian jian chuang
+捏著鼻子	nie zhe bi zi
+捏麵人	nie mian ren
+捨己為人	she ji wei ren
+捨己為公	she ji wei gong
+捶床拍枕	chui chuang pai zhen
+捶床搗枕	chui chuang dao zhen
+捻著鼻子	nie zhe bi zi
+掌灶的	zhang zao de
+推群獨步	tui qun du bu
+揉著癢處	rou zhao yang chu
+提溜著心	di liu zhe xin
+提著影戲人子上場	ti zhe ying xi ren zi shang chang
+揚湯止沸不如去薪	yang tang zhi fei bu ru qu xin
+搆木為巢	gou mu wei chao
+損有餘補不足	sun you yu bu bu zu
+搔著癢處	sao zhao yang chu
+搖車兒裡的爺爺拄拐棍兒的孫子	yao che er li de ye ye zhu guai gue er de sun zi
+搖車兒裡的爺爺拄拐棍兒的孫子	yao che er li de ye ye zhu guai gun er de sun zi
+搗枕搥床	dao zhen chui chuang
+搪酒吃	tang jiu chi
+搶生吃	qiang sheng chi
+搿著口兒	ge zhe kou er
+摁扣兒	en kou er
+摧剛為柔	cui gang wei rou
+摩鹿加群島	mo lu jia qun dao
+摸不著	mo bu zhao
+摸不著門兒	mo bu zhao me er
+摸不著門兒	mo bu zhao men er
+摸不著頭腦	mo bu zhao tou nao
+摸不著頭路	mo bu zhao tou lu
+摸稜兩可	mo leng liang ke
+摸稜宰相	mo leng zai xiang
+摸著石頭過河	mo zhe shi tou guo he
+摸門不著	mo men bu zhao
+摸頭不著	mo tou bu zhao
+摸頭路不著	mo tou lu bu zhao
+撅皇城撾怨鼓	jue huang cheng zhua yuan gu
+撓直為曲	nao zhi wei qu
+撥火又長拄門又短	bo huo you chang zhu men you duan
+撥著癢處	bo zhao yang chu
+撩蜂吃螫	liao feng chi zhe
+擀麵杖	gan mian zhang
+擀麵棍	gan mian gun
+擔仔麵	dan zi mian
+擔擔麵	dan dan mian
+據床指麾	ju chuang zhi hui
+據為己有	ju wei ji you
+攀得高跌得重	pan de gao die de zhong
+攜挾帶	xi jia dai
+攻心為上	gong xin wei shang
+放任行為	fang ren xing wei
+放在眼裡	fang zai yan li
+放射汙染	fang she wu ran
+放牛吃草	fang niu chi cao
+放精神著	fang jing shen zhe
+放著鵝毛不知輕頂著磨子不知重	fang zhe e mao bu zhi qing ding zhe mo zi bu zhi zhong
+敗棋有勝著	bai qi you sheng zhuo
+敗軍之將不可言勇	bai jun zhi jiang bu ke yan yong
+敘利亞阿拉伯共和國	xu li ya a la bo gong he guo
+教育部國語推行委員會	jiao yu bu guo yu tui xing wei yuan hui
+敢作敢為	gan zuo gan wei
+敦葫蘆摔馬杓	dun hu lu shuai ma shao
+敬啟者	jing qi zhe
+敬業樂群	jing ye yao qun
+敬酒不吃吃罰酒	jing jiu bu chi chi fa jiu
+整簍灑油滿地撿芝麻	zheng lou sa you man di jian zhi ma
+敵眾我寡	di zhong wo gua
+數東瓜道茄子	shu dong gua dao qie zi
+文不文武不武	wen bu wen wu bu wu
+文官不愛錢武官不怕死	wen guan bu ai qian wu guan bu pa si
+斑飛虱	ban fei shi
+斫雕為樸	zhuo diao wei pu
+斬木為兵	zhan mu wei bing
+斬草不除根春風吹又生	zhan cao bu chu gen chun feng chui you sheng
+斬首示眾	zhan shou shi zhong
+新沐者必彈冠新浴者必振衣	xin mu zhe bi tan guan xin yu zhe bi zhen yi
+斲方為圓	zhuo fang wei yuan
+斲琱為樸	zhuo diao wei pu
+斲雕為樸	zhuo diao wei pu
+方便為門	fang bian wei men
+方便麵	fang bian mian
+於家為國	yu jia wei guo
+既作生人便有生理	ji zuo sheng ren bian you sheng li
+既生瑜何生亮	ji sheng yu he sheng liang
+日月經天江河行地	ri yue jing tian jiang he xing di
+日有所思夜有所夢	ri you suo si ye you suo meng
+早起的鳥兒有蟲吃	zao qi de niao er you chong chi
+旱魃為虐	han ba wei nve
+明式家具	ming shi jia ju
+明擺著	ming bai zhe
+明知不是伴事急且相隨	ming zhi bu shi ban shi ji qie xiang sui
+明知就裡	ming zhi jiu li
+明義理切世用	ming yi li qie shi yong
+明鏡所以照形往事所以知今	ming jing suo yi zhao xing wang shi suo yi zhi jin
+昔得蘭群島	xi de lan qun dao
+星曆錶	xing li biao
+昧著惺惺使糊塗	mei zhe xing xing shi hu tu
+是福不是禍是禍躲不過	shi fu bu shi huo shi huo duo bu guo
+是非只為多開口	shi fei zhi wei duo kai kou
+時來暫去	shi lai zhan qu
+時來暫去	shi lai zan qu
+時光似箭日月如梭	shi guang si jian ri yue ru suo
+晚娘的拳頭雲裡的日頭	wan niang de quan tou yun li de ri tou
+普度眾生	pu du zhong sheng
+普渡眾生	pu du zhong sheng
+普濟眾生	pu ji zhong sheng
+普濟群生	pu ji qun sheng
+暖和和	nuan he he
+暗吃一驚	an chi yi jing
+暫且擱下	zhan qie ge xia
+暫且擱下	zan qie ge xia
+暫勞永逸	zhan lao yong yi
+暫勞永逸	zan lao yong yi
+暫染髮慕絲	zhan ran fa mu si
+暫染髮慕絲	zan ran fa mu si
+曲裡拐彎	qu li guai wan
+更正啟事	geng zheng qi shi
+書山有路勤為徑學海無涯苦作舟	shu shan you lu qin wei jing xue hai wu ya ku zuo zhou
+曾經滄海難為水	ceng jing cang hai nan wei shui
+曾著賣糖君子哄如今不信口甜人	ceng zhao mai tang jun zi hong ru jin bu xin kou tian ren
+會合周期	hui he zhou qi
+會無好會宴無好宴	hui wu hao hui yan wu hao yan
+月裡嫦娥	yue li chang e
+有一步沒一步	you yi bu mei yi bu
+有一頓沒一頓	you yi dun mei yi dun
+有作為	you zuo wei
+有例不滅無例不興	you li bu mie wu li bu xing
+有借有還再借不難	you jie you huan zai jie bu nan
+有借有還再借不難	you jie you hai zai jie bu nan
+有償行為	you chang xing wei
+有兒靠兒無兒靠婿	you er kao er wu er kao xu
+有家難奔有國難投	you jia nan ben you guo nan tou
+有山無木有水無魚	you shan wu mu you shui wu yu
+有所作為	you suo zuo wei
+有治人無治法	you zhi ren wu zhi fa
+有稜有角	you leng you jiao
+有著落	you zhuo luo
+有證為憑	you zheng wei ping
+有道則見無道則隱	you dao ze xian wu dao ze yin
+有酒膽無飯力	you jiu dan wu fan li
+有錢買馬沒錢置鞍	you qian mai ma mei qian zhi an
+朋比為奸	peng bi wei jian
+朝朝寒食夜夜元宵	zhao zhao han shi ye ye yuan xiao
+木實繁者披枝害心	mu shi fan zhe pi zhi hai xin
+木杓火杖兒短強如手撥剌	mu shao huo zhang er duan qiang ru shou bo la
+木石為徒	mu shi wei tu
+木邊之目田下之心	mu bian zhi mu tian xia zhi xin
+未足為道	wei zu wei dao
+東加群島	dong jia qun dao
+東印度群島	dong yin du qun dao
+東山老虎要吃人西山老虎也要吃人	dong shan lao hu yao chi ren xi shan lao hu ye yao chi ren
+東床坦腹	dong chuang tan fu
+東床嬌婿	dong chuang jiao xu
+東床嬌客	dong chuang jiao ke
+東床快婿	dong chuang kuai xu
+東沙群島	dong sha qun dao
+東淨裡的磚兒	dong jing li de zhua er
+東淨裡的磚兒	dong jing li de zhuan er
+板著臉	ban zhe lian
+林冲夜奔	lin chong ye ben
+核汙染	he wu ran
+桃李不言下自成行	tao li bu yan xia zi cheng hang
+桃李無言下自成蹊	tao li wu yan xia zi cheng xi
+梁啟超	liang qi chao
+棉花店著火	mian hua dian zhao huo
+棉花店裡歇工	mian hua dian li xie gong
+棋高一著	qi gao yi zhuo
+棒子麵	bang zi mian
+棺材裡伸手	guan cai li shen shou
+植物群落	zhi wu qun luo
+椎床倒枕	zhui chuang dao zhen
+構詞惑眾	gou ci huo zhong
+槍桿子裡出政權	qiang gan zi li chu zheng quan
+模稜兩可	mo leng liang ke
+樹猶如此人何以堪	shu you ru ci ren he yi kan
+橘化為枳	ju hua wei zhi
+機兒不快梭兒快	ji er bu kuai suo er kuai
+櫛垢爬癢	jie gou pa yang
+櫛垢爬癢	zhi gou pa yang
+櫛次鱗比	jie ci lin bi
+櫛次鱗比	zhi ci lin bi
+櫛比鱗差	jie bi lin ci
+櫛比鱗差	zhi bi lin cha
+櫛比鱗次	jie bi lin ci
+櫛比鱗次	zhi bi lin ci
+櫛風沐雨	jie feng mu yu
+櫛風沐雨	zhi feng mu yu
+櫛髮工	jie fa gong
+櫛髮工	zhi fa gong
+欲人不知莫若勿為	yu ren bu zhi mo ruo wu wei
+款啟寡聞	kuan qi gua wen
+歃血為盟	sha xue wei meng
+歃血為誓	sha xue wei shi
+歎為觀止	tan wei guan zhi
+歡忻踴躍	huan xin yong yue
+歡欣踴躍	huan xin yong yue
+止戈為武	zhi ge wei wu
+正正之旗堂堂之陳	zheng zheng zhi qi tang tang zhi zhen
+正當防衛行為	zheng dang fang wei xing wei
+此而可忍孰不可容	ci er ke ren shu bu ke rong
+此而可忍孰不可忍	ci er ke ren shu bu ke ren
+此處不留人自有留人處	ci chu bu liu ren zi you liu ren chu
+步步為營	bu bu wei ying
+武大郎吃毒藥	wu da lang chi du yao
+歪打正著	wai da zheng zhao
+歸師勿掩窮寇莫追	gui shi wu yan qiong kou mo zhui
+歸裡包堆	gui li bao dui
+死不死活不活	si bu si huo bu huo
+死吃死嚼	si chi si jiao
+死裡求生	si li qiu sheng
+死裡逃生	si li tao sheng
+殷憂啟聖	yin you qi sheng
+殺人償命欠債還錢	sha ren chang ming qian zhai huan qian
+殺身為報	sha shen wei bao
+殺雞為黍	sha ji wei shu
+毀舟為杕	hui zhou wei duo
+毀鐘為鐸	hui zhong wei duo
+比眾不同	bi zhong bu tong
+毛司裡磚兒	mao si li zhua er
+毛司裡磚兒	mao si li zhuan er
+毛廁裡磚兒	mao si li zhua er
+毛廁裡磚兒	mao si li zhuan er
+毛裡拖氈	mao li tuo zhan
+毫不為備	hao bu wei bei
+民不畏死奈何以死懼之	min bu wei si nai he yi si ju zhi
+民以食為天	min yi shi wei tian
+民以食為本	min yi shi wei ben
+民為邦本	min wei bang ben
+民眾教育	min zhong jiao yu
+民眾運動	min zhong yun dong
+氣不喘色不變	qi bu chuan se bu bian
+水來伸手飯來張口	shui lai shen shou fan lai zhang kou
+水來土壓兵至將迎	shui lai tu ya bing zhi jiang ying
+水來土掩兵到將迎	shui lai tu yan bing dao jiang ying
+水來土掩兵至將迎	shui lai tu yan bing zhi jiang ying
+水來土掩將至兵迎	shui lai tu yan jiang zhi bing ying
+水平不流人平不言	shui ping bu liu ren ping bu yan
+水晶床	shui jing chuang
+水汙染	shui wu ran
+水洩不通	shui xie bu tong
+水流濕火就燥	shui liu shi huo jiu zao
+水裡水裡來火裡火裡去	shui li shui li lai huo li huo li qu
+水裡納瓜	shui li na gua
+求灶頭不如求灶尾	qiu zao tou bu ru qiu zao wei
+求爺爺告奶奶	qiu ye ye gao nai nai
+求生不得求死不能	qiu sheng bu de qiu si bu neng
+汙吏黠胥	wu li xia xu
+汙染物	wu ran wu
+汙水處理	wu shui chu li
+江山好改秉性難移	jiang shan hao gai bing xing nan yi
+沉灶產蛙	chen zao chan wa
+沉著痛快	chen zhuo tong kuai
+沐雨櫛風	mu yu jie feng
+沐雨櫛風	mu yu zhi feng
+沒下脣就不該攬著簫吹	mei xia chun jiu bu gai lan zhe xiao chui
+沒亂裡	mo luan li
+沒個裡兒表兒	mei ge li er biao er
+沒個裡兒表兒	mei ge lie er biao er
+沒吃過豬肉也見過豬跑	mei chi guo zhu rou ye jian guo zhu pao
+沒地裡巡檢	mei di li xun jian
+沒著沒落	mei zhuo mei luo
+沒著落	mei zhuo luo
+沒裡沒外	mei li mei wai
+沒那金剛鑽兒也不攬那磁器傢伙	mei na jin gang zua er ye bu lan na ci qi jia huo
+沒那金剛鑽兒也不攬那磁器傢伙	mei na jin gang zuan er ye bu lan na ci qi jia huo
+沒酒沒漿做甚麼道場	mei jiu mei jiang zuo shen me dao chang
+沙發床	sha fa chuang
+沙裡淘金	sha li tao jin
+河水清天下平	he shui qing tian xia ping
+河裡孩兒岸上娘	he li ha er an shang niang
+河裡孩兒岸上娘	he li hai er an shang niang
+河裡淹死是會水的	he li yan si shi hui shui de
+油汙染	you wu ran
+油茶麵兒	you cha mia er
+油茶麵兒	you cha mian er
+油裡滑	you li hua
+治一經損一經	zhi yi jing sun yi jing
+治得病治不得命	zhi de bing zhi bu de ming
+法律行為	fa lv xing wei
+法無三日嚴草是年年長	fa wu san ri yan cao shi nian nian zhang
+法網恢恢疏而不漏	fa wang hui hui shu er bu lou
+泡麵哲學	pao mian zhe xue
+泡麵市場	pao mian shi chang
+波涌雲亂	bo yong yun luan
+波稜菜	bo leng cai
+洋子江心打立水緊溜子裡為著人	yang zi jiang xin da li shui jin liu zi li wei zhe ren
+洩漏天機	xie lou tian ji
+洩漏風聲	xie lou feng sheng
+洶涌澎湃	xiong yong peng pai
+活不活死不死	huo bu huo si bu si
+活性汙泥菌	huo xing wu ni jun
+流水不腐戶樞不蠹	liu shui bu fu hu shu bu du
+流裡流氣	liu li liu qi
+流言惑眾	liu yan huo zhong
+浮來暫去	fu lai zhan qu
+浮來暫去	fu lai zan qu
+海峽群島	hai xia qun dao
+海水汙染	hai shui wu ran
+海水群飛	hai shui qun fei
+海裡海外	hai li hai wai
+淫汙穢臭	yin wu hui chou
+淮南橘淮北枳	huai nan ju huai bei zhi
+混吃混玩	hun chi hun wan
+混淆不清	hun yao bu qing
+混淆不清	hun xiao bu qing
+混淆是非	hun yao shi fei
+混淆是非	hun xiao shi fei
+混淆視聽	hun yao shi ting
+混淆視聽	hun xiao shi ting
+混淆黑白	hun yao hei bai
+混淆黑白	hun xiao hei bai
+混為一談	hun wei yi tan
+混飯吃	hun fan chi
+添兵減灶	tian bing jian zao
+添案小吃	tian an xiao chi
+清水下雜麵	qing shui xia za mian
+清淨無為	qing jing wu wei
+清湯掛麵	qing tang gua mian
+清灰冷灶	qing hui leng zao
+清鍋兒冷灶	qing guo er leng zao
+清靜無為	qing jing wu wei
+渾身是鐵打得多少釘兒	hun shen shi tie da de duo shao ding er
+湖廣熟天下足	hu guang shu tian xia zu
+湯裡來水裡去	tang li lai shui li qu
+溈仰宗	gui yang zong
+溶溶洩洩	rong rong xie xie
+滑稽大鼓	gu ji da gu
+滑稽大鼓	hua ji da gu
+滑稽戲	gu ji xi
+滑稽戲	hua ji xi
+滑稽突梯	gu ji tu ti
+滑稽突梯	hua ji tu ti
+滿以為	man yi wei
+滿地撿芝麻整簍灑油	man di jian zhi ma zheng lou sa you
+滿打著	man da zhe
+滿招損謙受益	man zhao sun qian shou yi
+滿紙荒唐言一把辛酸淚	man zhi huang tang yan yi ba xin suan lei
+漆黑一團	qu hei yi tuan
+漆黑一團	qi hei yi tuan
+漏洩春光	lou xie chun guang
+漫天討價著地還錢	man tian tao jia zhuo di huan qian
+潔言汙行	jie yan wu xing
+潛伏分子	qian fu fen zi
+澎湖群島	peng hu qun dao
+澠池之功	min chi zhi gong
+澠池會	min chi hui
+澠池縣	min chi xian
+濫吃濫用	lan chi lan yong
+濫官汙吏	lan guan wu li
+濯汙揚清	zhuo wu yang qing
+火燒眉毛且顧眼前	huo shao mei mao qie gu yan qian
+火著心兒	huo zhe xie er
+火著心兒	huo zhe xin er
+火裡火去水裡水去	huo li huo qu shui li shui qu
+火裡火發	huo li huo fa
+火裡赤	huo li chi
+灶上的	zao shang de
+灶上騷除	zao shang sao chu
+灶下婢	zao xia bi
+灶下養	zao xia yang
+灶王爺	zao wang ye
+炒麵塊子	chao mian kuai zi
+為主作倡	wei zhu zuo chang
+為人作嫁	wei ren zuo jia
+為人師表	wei ren shi biao
+為人為徹	wei ren wei che
+為人行事	wei ren xing shi
+為人解圍	wei ren jie wei
+為什麼	wei shen me
+為仁不富	wei ren bu fu
+為今之計	wei jin zhi ji
+為叢敺雀	wei cong qu que
+為叢驅雀	wei cong qu que
+為善不欲人知	wei shan bu yu ren zhi
+為善最樂	wei shan zui le
+為國捐軀	wei guo juan qu
+為國為民	wei guo wei min
+為國爭光	wei guo zheng guang
+為好成歉	wei hao cheng qian
+為富不仁	wei fu bu ren
+為小失大	wei xiao shi da
+為山九仞功虧一簣	wei shan jiu ren gong kui yi kui
+為德不卒	wei de bu zu
+為情造文	wei qing zao wen
+為惡不悛	wei e bu quan
+為所欲為	wei suo yu wei
+為政不在多言	wei zheng bu zai duo yan
+為時已晚	wei shi yi wan
+為期不遠	wei qi bu yuan
+為民喉舌	wei min hou she
+為民請命	wei min qing ming
+為民除害	wei min chu hai
+為民除患	wei min chu huan
+為法自弊	wei fa zi bi
+為淵敺魚	wei yuan qu yu
+為甚麼	wei shen me
+為臣死忠為子死孝	wei chen si zhong wei zi si xiao
+為虎作倀	wei hu zuo chang
+為虎傅翼	wei hu fu yi
+為虎添翼	wei hu tian yi
+為虺弗摧為蛇若何	wei hui fu cui wei she ruo he
+為蛇添足	wei she tian zu
+為蛇畫足	wei she hua zu
+為裘為箕	wei qiu wei ji
+為難之處	wei nan zhi chu
+為非作歹	wei fei zuo dai
+為頭把腦	wei tou ba nao
+為鬼為蜮	wei gui wei yu
+為鬼為魅	wei gui wei mei
+烈女不更二夫忠臣不事二君	lie nv bu geng er fu zhong chen bu shi er jun
+烏不三白不四	wu bu san bai bu si
+烏合之眾	wu he zhi zhong
+烏狗吃食白狗當災	wu gou chi shi bai gou dang zai
+烏雲著頂	wu yun zhuo ding
+烏龍麵	wu long mian
+烤麵包機	kao mian bao ji
+無以為敬	wu yi wei jing
+無以為生	wu yi wei sheng
+無以為繼	wu yi wei ji
+無所不為	wu suo bu wei
+無所作為	wu suo zuo wei
+無根之木無源之水	wu gen zhi mu wu yuan zhi shui
+無為而治	wu wei er zhi
+無為自化	wu wei zi hua
+無能為力	wu neng wei li
+無能為役	wu neng wei yi
+無與為比	wu yu wei bi
+無行為能力人	wu xing wei neng li ren
+無言不讎無德不報	wu yan bu chou wu de bu bao
+照相著色	zhao xiang zhuo se
+煮海為鹽	zhu hai wei yan
+熱汙染	re wu ran
+燃犀溫嶠	ran xi wen jiao
+燒冷灶	shao leng zao
+燒地眠炙地臥	shao di mian zhi di wo
+燕石為玉	yan shi wei yu
+營建署陽明山國家公園管理處	ying jian shu yang ming shan guo jia gong yuan guan li chu
+爛汙貨	lan wu huo
+爪尖兒	zhao jia er
+爪尖兒	zhao jian er
+爪尖兒	zhua jian er
+爬得高跌得重	pa de gao die de zhong
+爭鋒吃醋	zheng feng chi cu
+爭風吃醋	zheng feng chi cu
+父一輩子一輩	fu yi bei zi yi bei
+父做子笑子做父笑	fu zuo zi xiao zi zuo fu xiao
+父母之命媒妁之言	fu mu zhi ming mei shuo zhi yan
+父母養我們小我們養父母老	fu mu yang wo men xiao wo men yang fu mu lao
+父為子隱	fu wei zi yin
+牆倒眾人推	qiang dao zhong ren tui
+牆有縫壁有耳	qiang you feng bi you er
+牆裡開花牆外香	qiang li kai hua qiang wai xiang
+牝雞之晨惟家之索	pin ji zhi chen wei jia zhi suo
+牡丹花下死做鬼也風流	mu dan hua xia si zuo gui ye feng liu
+物以稀為貴	wu yi xi wei gui
+特洛伊星群	te luo yi xing qun
+特特為為	te te wei wei
+犬牙差互	quan ya ci hu
+犬牙差互	quan ya cha hu
+犯不著	fan bu zhao
+犯得著	fan de zhao
+犯病的不吃犯法的不做	fan bing de bu chi fan fa de bu zuo
+狐群狗黨	hu qun gou dang
+狗口裡吐不出象牙	gou kou li tu bu chu xiang ya
+狗吃屎	gou chi shi
+狗吃熱屎	gou chi re shi
+狗嘴裡吐不出象牙	gou zui li tu bu chu xiang ya
+狗嘴裡還有象牙	gou zui li hai you xiang ya
+狗屁倒灶	gou pi dao zao
+狗改不了吃屎	gou gai bu liao chi shi
+狗皮倒灶	gou pi dao zao
+狗黨狐群	gou dang hu qun
+狡兔死良狗烹	jiao tu si liang gou peng
+狼吃幞頭	lang chi pu tou
+狼狽為奸	lang bei wei jian
+猛可裡	meng ke li
+猛地裡	meng di li
+猛著先鞭	meng zhuo xian bian
+猛著祖鞭	meng zhuo zu bian
+猛虎歸山蛟龍入海	meng hu gui shan jiao long ru hai
+獃著臉	dai zhe lian
+獨吃自痾	du chi zi e
+獨排眾議	du pai zhong yi
+獨立不群	du li bu qun
+率以為常	shuai yi wei chang
+玉不掩光珠不掩輝	yu bu yan guang zhu bu yan hui
+玉石混淆	yu shi hun yao
+玉石混淆	yu shi hun xiao
+玩其磧礫不窺玉淵	wan qi qi li bu kui yu yuan
+班克斯群島	ban ke si qun dao
+班達群島	ban da qun dao
+琉球群島	liu qiu qun dao
+璞玉為石	pu yu wei shi
+環境汙染	huan jing wu ran
+瓜兒多子兒少	gua er duo ze er shao
+瓜兒多子兒少	gua er duo zi er shao
+瓜田不納履李下不整冠	gua tian bu na lv li xia bu zheng guan
+瓦灶繩床	wa zao sheng chuang
+甕裡醯雞	weng li xi ji
+甜水麵	tian shui mian
+甜麵醬	tian mian jiang
+生不帶來死不帶去	sheng bu dai lai si bu dai qu
+生公說法頑石點頭	sheng gong shuo fa wan shi dian tou
+生力麵	sheng li mian
+生有地死有處	sheng you di si you chu
+生物群聚	sheng wu qun ju
+用不著	yong bu zhao
+男不男女不女	nan bu nan nv bu nv
+男僧寺對著女僧寺	nan seng si dui zhe nv seng si
+男有分女有歸	nan you fen nv you gui
+留得青山在不怕沒柴燒	liu de qing shan zai bu pa mei chai shao
+留得青山在依舊有柴燒	liu de qing shan zai yi jiu you chai shao
+畫地為牢	hua di wei lao
+畫地為獄	hua di wei yu
+畫蛇著足	hua she zhuo zu
+畫龍不成反為狗	hua long bu cheng fan wei gou
+異常行為	yi chang xing wei
+當局稱迷傍觀必審	dang ju cheng mi pang guan bi shen
+當局稱迷傍觀必審	dang ju cheng mi bang guan bi shen
+當局者迷傍觀者清	dang ju zhe mi pang guan zhe qing
+當局者迷傍觀者清	dang ju zhe mi bang guan zhe qing
+當著不著	dang zhao bu zhao
+當著矮人別說短話	dang zhe ai ren bie shuo duan hua
+疊床架屋	die chuang jia wu
+疋先裡	pi xian li
+疑事無功疑行無名	yi shi wu gong yi xing wu ming
+疑人勿使使人勿疑	yi ren wu shi shi ren wu yi
+疑人勿用用人勿疑	yi ren wu yong yong ren wu yi
+疑人莫用用人莫疑	yi ren mo yong yong ren mo yi
+疑今者察之古	yi jin zhe cha zhi gu
+疑行無名疑事無功	yi xing wu ming yi shi wu gong
+疑行無成疑事無功	yi xing wu cheng yi shi wu gong
+病來如山倒病去如抽絲	bing lai ru shan dao bing qu ru chou si
+症候群	zheng hou qun
+瘦稜稜	shou leng leng
+癩蝦蟆想吃天鵝肉	lai ha ma xiang chi tian e rou
+癱子掉在井裡	tan zi diao zai jing li
+白吃白住	bai chi bai zhu
+白吃白喝	bai chi bai he
+白天不做虧心事半夜不怕鬼敲門	bai tian bu zuo kui xin shi ban ye bu pa gui qiao men
+白粉麵	bai fen mian
+白閒著	bai xian zhe
+白雪公主症候群	bai xue gong zhu zheng hou qun
+白面皮	bai mian pi
+百吃不厭	bai chi bu yan
+百慕達群島	bai mu da qun dao
+百萬之眾	bai wan zhi zhong
+百裡挑一	bai li tiao yi
+皇天無親惟德是輔	huang tian wu qin wei de shi fu
+皇帝不急急死太監	huang di bu ji ji si tai jian
+皇帝輪流做明年到我家	huang di lun liu zuo ming nian dao wo jia
+皮之不存毛將安傅	pi zhi bu cun mao jiang an fu
+皮笊籬不漏湯	pi zhao li bu lou tang
+皮著臉	pi zhe lian
+皮裡抽肉	pi li chou rou
+皮裡春秋	pi li chun qiu
+皮裡晉書	pi li jin shu
+皮裡膜外	pi li mo wai
+皮裡走肉	pi li zou rou
+皮裡陽秋	pi li yang qiu
+盡力而為	jin li er wei
+盧稜伽	lu ling qie
+直著身子	zhi zhe shen zi
+相依為命	xiang yi wei ming
+相倚為命	xiang yi wei ming
+相倚為彊	xiang yi wei qiang
+相忍為國	xiang ren wei guo
+相為表裡	xiang wei biao li
+相與為命	xiang yu wei ming
+相須為命	xiang xu wei ming
+相馬失之瘦相士失之貧	xiang ma shi zhi shou xiang shi shi zhi pin
+省可裡	sheng ke li
+眉頭一皺計上心來	mei tou yi zhou ji shang xin lai
+眉頭一縱計上心來	mei tou yi zong ji shang xin lai
+看著辦	kan zhe ban
+真偽莫辨	zhen wei mo bian
+眼不見為淨	yan bu jian wei jing
+眼中疔肉中刺	yan zhong ding rou zhong ci
+眼淚往肚子裡流	yan lei wang du zi li liu
+眼看著	yan kan zhe
+眼裡不揉沙子	yan li bu rou sha zi
+眼裡揉不下沙子	yan li rou bu xia sha zi
+眼見是實耳聞是虛	yan jian shi shi er wen shi xu
+眼觀四處耳聽八方	yan guan si chu er ting ba fang
+眾人拾柴火焰高	zhong ren shi chai huo yan gao
+眾叛親離	zhong pan qin li
+眾口一詞	zhong kou yi ci
+眾口交攻	zhong kou jiao gong
+眾口交薦	zhong kou jiao jian
+眾口交譽	zhong kou jiao yu
+眾口同聲	zhong kou tong sheng
+眾口如一	zhong kou ru yi
+眾口熏天	zhong kou xun tian
+眾口稱善	zhong kou cheng shan
+眾口紛紜	zhong kou fen yun
+眾口鑠金	zhong kou shuo jin
+眾口難調	zhong kou nan tiao
+眾喣漂山	zhong xu piao shan
+眾喣飄山	zhong xu piao shan
+眾寡不敵	zhong gua bu di
+眾寡勢殊	zhong gua shi shu
+眾寡懸殊	zhong gua xuan shu
+眾寡莫敵	zhong gua mo di
+眾寡難敵	zhong gua nan di
+眾少不敵	zhong shao bu di
+眾少成多	zhong shao cheng duo
+眾川赴海	zhong chuan fu hai
+眾心如城	zhong xin ru cheng
+眾心成城	zhong xin cheng cheng
+眾志成城	zhong zhi cheng cheng
+眾怒如水火	zhong nu ru shui huo
+眾怒難任	zhong nu nan ren
+眾怒難犯	zhong nu nan fan
+眾所周知	zhong suo zhou zhi
+眾所熟知	zhong suo shu zhi
+眾所瞻望	zhong suo zhan wang
+眾所矚目	zhong suo zhu mu
+眾擎易舉	zhong qing yi ju
+眾散親離	zhong san qin li
+眾星拱北	zhong xing gong bei
+眾星拱月	zhong xing gong yue
+眾星拱辰	zhong xing gong chen
+眾星捧月	zhong xing peng yue
+眾曲不容直	zhong qu bu rong zhi
+眾望所依	zhong wang suo yi
+眾望所歸	zhong wang suo gui
+眾望所積	zhong wang suo ji
+眾望攸歸	zhong wang you gui
+眾望有歸	zhong wang you gui
+眾毀所歸	zhong hui suo gui
+眾毛攢裘	zhong mao cuan qiu
+眾生好度人難度	zhong sheng hao du ren nan du
+眾生皆有佛性	zhong sheng jie you fou xing
+眾生相	zhong sheng xiang
+眾目共睹	zhong mu gong du
+眾目共視	zhong mu gong shi
+眾目具瞻	zhong mu ju zhan
+眾目所歸	zhong mu suo gui
+眾目昭彰	zhong mu zhao zhang
+眾目睽睽	zhong mu kui kui
+眾盲摸象	zhong mang mo xiang
+眾矢之的	zhong shi zhi di
+眾說紛紜	zhong shuo fen yun
+眾議成林	zhong yi cheng lin
+眾議院	zhong yi yuan
+眾醉獨醒	zhong zui du xing
+睡不著	shui bu zhao
+瞎子吃湯圓	xia zi chi tang yuan
+瞑子裡	ming zi li
+瞪著眼	deng zhe yan
+瞪著麒麟說是馬	deng zhe qi lin shuo shi ma
+矇松雨	meng song yu
+矇著鍋兒	meng zhe guo er
+知之為知之不知為不知	zhi zhi wei zhi zhi bu zhi wei bu zhi
+知之非艱行之惟艱	zhi zhi fei jian xing zhi wei jian
+知其不可而為	zhi qi bu ke er wei
+知心著意	zhi xin zhao yi
+知無不言言無不聽	zhi wu bu yan yan wu bu ting
+知疼著熱	zhi teng zhao re
+矬子裡頭選將軍	cuo zi li tou xuan jiang jun
+矯矯不群	jiao jiao bu qun
+矯言偽行	jiao yan wei xing
+矯飾偽行	jiao shi wei xing
+石棉沉著病	shi mian chen zhuo bing
+砂礫礦床	sha li kuang chuang
+破家為國	po jia wei guo
+破涕為笑	po ti wei xiao
+破矩為圓	po ju wei yuan
+破觚為圓	po gu wei yuan
+破觚為圜	po gu wei yuan
+硫磺群島	liu huang qun dao
+硬著頭皮	ying zhe tou pi
+硬裡子	ying li zi
+碌碌無為	lu lu wu wei
+碟大碗小磕著碰著	die da wan xiao ke zhao peng zhao
+礤床兒	ca chuang er
+社會群島	she hui qun dao
+社會行為	she hui xing wei
+社稷為墟	she ji wei xu
+祀灶日	si zao ri
+祖鞭先著	zu bian xian zhuo
+神而明之存乎其人	shen er ming zhi cun hu qi ren
+票據行為	piao ju xing wei
+祭灶神	ji zao shen
+祿無常家福無定門	lu wu chang jia fu wu ding men
+禍兮福所倚福兮禍所伏	huo xi fu suo yi fu xi huo suo fu
+禍為福先	huo wei fu xian
+福不重至禍必重來	fu bu chong zhi huo bi chong lai
+福克蘭群島	fu ke lan qun dao
+福為禍先	fu wei huo xian
+福為禍始	fu wei huo shi
+福無雙至禍不單行	fu wu shuang zhi huo bu dan xing
+福生有基禍生有胎	fu sheng you ji huo sheng you tai
+禮之用和為貴	li zhi yong he wei gui
+禮教吃人	li jiao chi ren
+禮樂為鉤	li yue wei gou
+禮讓為國	li rang wei guo
+禮豈為我設	li qi wei wo she
+禽有禽言獸有獸語	qin you qin yan shou you shou yu
+禿子跟著月亮走	tu zi gen zhe yue liang zou
+禿禿裡	tu tu li
+移孝為忠	yi xiao wei zhong
+稜柱體	leng zhu ti
+稜等登	leng deng deng
+稠人廣眾	chou ren guang zhong
+積健為雄	ji jian wei xiong
+積善之家必有餘慶	ji shan zhi jia bi you yu qing
+積善無人見存心有天知	ji shan wu ren jian cun xin you tian zhi
+積裡漸裡	ji li jian li
+穢語汙言	hui yu wu yan
+穩吃三注	wen chi san zhu
+空氣汙染	kong qi wu ran
+穿紅著綠	chuan hong zhuo lu
+穿紅著綠	chuan hong zhuo lv
+突梯滑稽	tu ti gu ji
+突梯滑稽	tu ti hua ji
+窟裡拔蛇	ku li ba she
+窨子裡秋月	yin zi li qiu yue
+窩裡反	wo li fan
+窩裡炮	wo li pao
+窩裡發炮	wo li fa pao
+窩裡翻	wo li fan
+窮凶惡極	qiong xiong e ji
+窮凶極惡	qiong xiong ji e
+窮凶極虐	qiong xiong ji nve
+窮則變變則通	qiong ze bian bian ze tong
+窮算命富燒香	qiong suan ming fu shao xiang
+笑一笑少一少	xiao yi xiao shao yi shao
+笑裡藏刀	xiao li cang dao
+筍裡不知茆裡	sun li bu zhi mao li
+筵無好筵會無好會	yan wu hao yan hui wu hao hui
+管山吃山管水吃水	guan shan chi shan guan shui chi shui
+簳麵杖	gan mian zhang
+精誠所加金石為虧	jing cheng suo jia jin shi wei kui
+精誠所至金石為開	jing cheng suo zhi jin shi wei kai
+糊裡糊塗	hu li hu tu
+糖堆裡養的	tang dui li yang de
+糞坑裡的石頭	fen keng li de shi tou
+糞缸裡擲骰子	fen gang li zhi tou zi
+約翰克利斯多夫	yue han ke li si duo fu
+紅一塊白一塊	hong yi kuai bai yi kuai
+納垢藏汙	na gou cang wu
+索羅門群島	suo luo men qun dao
+索馬利亞民主共和國	suo ma li ya min zhu gong he guo
+累積性傷害症候群	lei ji xing shang hai zheng hou qun
+終身之計莫如樹人	zhong shen zhi ji mo ru shu ren
+終身讓路不枉百步	zhong shen rang lu bu wang bai bu
+結黨聚群	jie dang ju qun
+結黨連群	jie dang lian qun
+絕倫超群	jue lun chao qun
+綠衣黃裡	lu yi huang li
+綠衣黃裡	lv yi huang li
+綠豆皮兒	lu dou pie er
+綠豆皮兒	lv dou pi er
+綽著經兒	chuo zhe jing er
+綿中刺笑裡刀	mian zhong ci xiao li dao
+綿綿不絕縵縵奈何	mian mian bu jue man man nai he
+綿裡針	mian li zhen
+緊急避難行為	jin ji bi nan xing wei
+緊接著	jin jie zhe
+緊溜子裡	jin liu zi li
+緊關裡	jin guan li
+縛稿為人	fu gao wei ren
+總統蔣公誕辰紀念日	zong tong jiang gong dan chen ji nian ri
+總統蔣公逝世紀念日	zong tong jiang gong shi shi ji nian ri
+織錦迴文	zhi jin hui wen
+繩床瓦灶	sheng chuang wa zao
+缸裡的醬蘿蔔	gang li de jiang luo bo
+罷馬不畏鞭箠罷民不畏刑法	pi ma bu wei bian chui pi min bu wei xing fa
+羊群裡跑出駱駝來	yang qun li pao chu luo tuo lai
+羊肉不曾喫空惹一身羶	yang rou bu ceng chi kong re yi shen shan
+羊肉床子	yang rou chuang zi
+羊肉落在狗嘴裡	yang rou luo zai gou zui li
+美利堅合眾國	mei li jian he zhong guo
+羞與為伍	xiu yu wei wu
+群口鑠金	qun kou shuo jin
+群居和一	qun ju he yi
+群居穴處	qun ju xue chu
+群島主義	qun dao zhu yi
+群情激憤	qun qing ji fen
+群眾心理	qun zhong xin li
+群眾路線	qun zhong lu xian
+群眾運動	qun zhong yun dong
+群眾關係	qun zhong guan xi
+群策群力	qun ce qun li
+群而不黨	qun er bu dang
+群芳譜	qun fang pu
+群英會	qun ying hui
+群蝨處褌中	qun shi chu kun zhong
+群蟻潰堤	qun yi kui ti
+群蟻附羶	qun yi fu shan
+群賢畢至	qun xian bi zhi
+群起攻之	qun qi gong zhi
+群起攻訐	qun qi gong jie
+群起效尤	qun qi xiao you
+群起而攻	qun qi er gong
+群輕折軸	qun qing zhe zhou
+群雌粥粥	qun ci zhu zhu
+群雞一鶴	qun ji yi he
+群體醫療執業中心	qun ti yi liao zhi ye zhong xin
+群魔亂舞	qun mo luan wu
+群龍無首	qun long wu shou
+義不生財慈不主兵	yi bu sheng cai ci bu zhu bing
+羹裡不著飯裡著	geng li bu zhao fan li zhao
+羹裡來飯裡去	geng li lai fan li qu
+習以為常	xi yi wei chang
+翹尾巴	qiao yi ba
+翻手為雲	fan shou wei yun
+老大吃驚	lao da chi jing
+老而不死是為賊	lao er bu si shi wei zei
+老著臉	lao zhe lian
+老著臉皮	lao zhe lian pi
+老虎嘴裡拔牙	lao hu zui li ba ya
+老虎灶	lao hu zao
+老馬為駒	lao ma wei ju
+老鴰窩裡出鳳凰	lao gua wo li chu feng huang
+耐著性子	nai zhe xing zi
+耕牛為主遭鞭杖	geng niu wei zhu zao bian zhang
+耳朵裡冒出腳來	er duo li mao chu jiao lai
+耳朵裡響	er duo li xiang
+耳聽為虛眼見為實	er ting wei xu yan jian wei shi
+聖多美及普林西比民主共和國	sheng duo mei ji pu lin xi bi min zhu gong he guo
+聚眾滋事	ju zhong zi shi
+聚米為山	ju mi wei shan
+聰明一世懵懂一時	cong ming yi shi meng dong yi shi
+聽而無聞視而無見	ting er wu wen shi er wu jian
+肆意妄為	si yi wang wei
+肉中刺眼中釘	rou zhong ci yan zhong ding
+肉裡錢	rou li qian
+肐膊只折在袖子裡	ge bo zhi zhe zai xiu zi li
+肐膊折了往袖子裡藏	ge bo zhe le wang xiu zi li cang
+肚兒裡有勾當	du er li you gou dang
+肚子裡點燈	du zi li dian deng
+肚疊胸高鴨步鵝行	du die xiong gao ya bu e xing
+肚皮裡	du pi li
+肚腸閣落裡邊	du chang ge luo li bian
+肚裡一輪	du li yi lun
+肚裡尋思	du li xun si
+肚裡明白	du li ming bai
+肚裡的蛔蟲	du li de hui chong
+肚裡說不出來的苦	du li shuo bu chu lai de ku
+肚裡躊躇	du li chou chu
+肚裡雷鳴	du li lei ming
+股無胈脛不生毛	gu wu ba jing bu sheng mao
+肩不能挑擔手不能提籃	jian bu neng tiao dan shou bu neng ti lan
+背地裡	bei di li
+胎裡壞	tai li huai
+胎裡富	tai li fu
+胎裡毒	tai li du
+胎裡素	tai li su
+胖子也不是一口兒吃的	pang zi ye bu shi yi kou er chi de
+胞子囊群	bao zi nang qun
+胞與為懷	bao yu wei huai
+胡作非為	hu zuo fei wei
+胡做喬為	hu zuo qiao wei
+胡裡胡塗	hu li hu tu
+能者為師	neng zhe wei shi
+腆著臉	tian zhe lian
+腌裡巴臢	ang li ba zang
+腕道症候群	wan dao zheng hou qun
+腰裡硬	yao li ying
+腳打著腦杓子	jiao da zhe nao shao zi
+膠著狀態	jiao zhuo zhuang tai
+膽大妄為	dan da wang wei
+臥榻之側豈容他人鼾睡	wo ta zhi ce qi rong ta ren han shui
+臥病在床	wo bing zai chuang
+臨床實驗	lin chuang shi yan
+臨床心理學	lin chuang xin li xue
+臨床經驗	lin chuang jing yan
+臨床醫學	lin chuang yi xue
+自以為得計	zi yi wei de ji
+自以為是	zi yi wei shi
+自找苦吃	zi zhao ku chi
+自討苦吃	zi tao ku chi
+與人方便自己方便	yu ren fang bian zi ji fang bian
+與人為善	yu ren wei shan
+與噲為伍	yu kuai wei wu
+與眾不同	yu zhong bu tong
+興兵動眾	xing bing dong zhong
+興師動眾	xing shi dong zhong
+舉止嫻雅	ju zhi xian ya
+舊的不去新的不來	jiu de bu qu xin de bu lai
+舟山群島	zhou shan qun dao
+船多不礙港車多不礙路	chuan duo bu ai gang che duo bu ai lu
+良莠淆雜	liang you yao za
+良莠淆雜	liang you xiao za
+色數兒	shai shu er
+色數兒	se shu er
+花巾著目	hua jin zhuo mu
+花搭著	hua da zhe
+花裡胡哨	hua li hu shao
+芳蘭生門不得不鋤	fang lan sheng men bu de bu chu
+芸芸眾生	yun yun zhong sheng
+苑裡鎮	yuan li zhen
+若要人不知除非己莫為	ruo yao ren bu zhi chu fei ji mo wei
+若要好問三老	ruo yao hao wen san lao
+苦著臉	ku zhe lian
+英國皇家科學研究所	ying guo huang jia ke xue yan jiu suo
+茅利塔尼亞伊斯蘭共和國	mao li ta ni ya yi si lan gong he guo
+茅廁裡的石頭	mao si li de shi tou
+茲啟者	zi qi zhe
+茶麵子	cha mian zi
+莫此為甚	mo ci wei shen
+莫知所為	mo zhi suo wei
+莫邪鈍鉛刀銛	mo ye dun qian dao xian
+菠稜菜	bo leng cai
+萑苻不靖	huan fu bu jing
+萑苻不靖	zhui fu bu jing
+萬惡淫為首	wan e yin wei shou
+萬眾一心	wan zhong yi xin
+落了灶	luo le zao
+落禮兒	la li er
+落禮兒	la lie er
+落禮兒	luo li er
+落花有意流水無情	luo hua you yi liu shui wu qing
+落草為寇	luo cao wei kou
+落草為盜	luo cao wei dao
+落著臉	luo zhe lian
+著三不著兩	zhao san bu zhao liang
+著先鞭	zhuo xian bian
+著手回春	zhuo shou hui chun
+著手成春	zhuo shou cheng chun
+著手腳	zhao shou jiao
+著火點	zhao huo dian
+著甚來由	zhuo shen lai you
+著生植物	zhuo sheng zhi wu
+著疼熱	zhuo teng re
+著眼點	zhao yan dian
+著糞佛頭	zhuo fen fo tou
+著腳書樓	zhuo jiao shu lou
+著著失敗	zhuo zhuo shi bai
+著著進逼	zhuo zhuo jin bi
+著衣鏡	zhuo yi jing
+著重兒	zhuo zhong er
+葛摩伊斯蘭聯邦共和國	ge mo yi si lan lian bang gong he guo
+葫蘆裡賣的甚麼藥	hu lu li mai de shen men yao
+蒙在鼓裡	meng zai gu li
+蓋鍋煮皮兒開鍋煮餡兒	gai guo zhu pi er kai guo zhu xian er
+蓋鍋煮皮兒開鍋煮餡兒	gai guo zhu pie er kai guo zhu xia er
+蓬生麻中不扶而直	peng sheng ma zhong bu fu er zhi
+蔚為大觀	wei wei da guan
+蔚為奇觀	wei wei qi guan
+蕎麥麵	qiao mai mian
+蕩垢滌汙	dang gou di wu
+薩摩亞群島	sa mo ya qun dao
+藏垢納汙	cang gou na wu
+藏汙納垢	cang wu na gou
+藥麵兒	yao mia er
+藥麵兒	yao mian er
+虎入羊群	hu ru yang qun
+虎卑勢狸卑身	hu bei shi li bei shen
+虎毒不吃兒	hu du bu chi er
+虎無爪鳥無翼	hu wu zhua niao wu yi
+虎蕩羊群	hu dang yang qun
+虎頭上捉虱子	hu tou shang zhuo shi zi
+處心有道行己有方	chu xin you dao xing ji you fang
+虱目魚	shi mu yu
+蚊子遭扇打只為嘴傷人	wen zi zao shan da zhi wei zui shang ren
+蚵仔麵線	e zi mian xian
+蛇無頭而不行鳥無翅而不飛	she wu tou er bu xing niao wu chi er bu fei
+蜀中無大將廖化作先鋒	shu zhong wu da jiang liao hua zuo xian feng
+蜂蠆入懷解衣去趕	feng chai ru huai jie yi qu gan
+蜜裡調油	mi li tiao you
+蝦蟆跳在戥盤子裡	ha ma tiao zai deng pan zi li
+蝨多了不咬債多了不愁	shi duo le bu yao zai duo le bu chou
+蝨多了不咬債多了不愁	shi duo le bu yao zhai duo le bu chou
+蝮蛇螫手壯士斷腕	fu she zhe shou zhuang shi duan wan
+蝸居蟻垤	gua ju yi die
+融為一體	rong wei yi ti
+蟲吃牙	chong chi ya
+蠹眾而木折隙大而牆壞	du zhong er mu zhe xi da er qiang huai
+蠻不蠻侉不侉	man bu man kua bu kua
+血汙池	xie wu chi
+行不改名坐不改姓	xing bu gai ming zuo bu gai xing
+行不更名坐不改姓	xing bu geng ming zuo bu gai xing
+行師動眾	xing shi dong zhong
+行政院公共工程委員會	xing zheng yuan gong gong gong cheng wei yuan hui
+行政院公平交易委員會	xing zheng yuan gong ping jiao yi wei yuan hui
+行政院原住民族委員會	xing zheng yuan yuan zhu min zu wei yuan hui
+行政院原子能委員會	xing zheng yuan yuan zi neng wei yuan hui
+行政院國軍退除役官兵輔導委員會	xing zheng yuan guo jun tui chu yi guan bing fu dao wei yuan hui
+行政院教育改革審議委員會	xing zheng yuan jiao yu gai ge shen yi wei yuan hui
+行政院文化建設委員會	xing zheng yuan wen hua jian she wei yuan hui
+行政院消費者保護委員會	xing zheng yuan xiao fei zhe bao hu wei yuan hui
+行政院經濟建設委員會	xing zheng yuan jing ji jian she wei yuan hui
+行為主義	xing wei zhu yi
+行為模式	xing wei mo shi
+行為派	xing wei pai
+行為科學	xing wei ke xue
+行為能力	xing wei neng li
+行為藝術	xing wei yi shu
+行為藝術者	xing wei yi shu zhe
+行軍動眾	xing jun dong zhong
+行軍床	xing jun chuang
+街死街埋路死路埋	jie si jie mai lu si lu mai
+衣不如新人不如舊	yi bu ru xin ren bu ru jiu
+衣不經新何由得故	yi bu jing xin he you de gu
+衣索比亞人民民主共和國	yi suo bi ya ren min min zhu gong he guo
+表壯不如裡壯	biao zhuang bu ru li zhuang
+表裡不一	biao li bu yi
+表裡受敵	biao li shou di
+表裡如一	biao li ru yi
+表裡山河	biao li shan he
+表裡相合	biao li xiang he
+表裡相應	biao li xiang ying
+表裡相濟	biao li xiang ji
+袖裡來袖裡去	xiu li lai xiu li qu
+被窩裡放屁	bei wo li fang pi
+裡出外進	li chu wai jin
+裡勾外連	li gou wai lian
+裡外不是人	li wai bu shi ren
+裡外發燒	li wai fa shao
+裡外裡	li wai li
+裡急後重	li ji hou zhong
+裡應外合	li ying wai he
+裡懷裡	li huai li
+裡槅子	li ge zi
+裡牽綿	li qian mian
+裡脊肉	li ji rou
+裡裡外外	li li wai wai
+裡通外國	li tong wai guo
+褪套兒	tun tao er
+褪套兒	tui tao er
+西印度群島	xi yin du qun dao
+西沙群島	xi sha qun dao
+要作神仙眷屬先作柴米夫妻	yao zuo shen xian juan shu xian zuo chai mi fu qi
+要吃爛肉別要惱著火頭	yao chi lan rou bie yao nao zhao huo tou
+要怎麼收穫先怎麼栽	yao zen mo shou huo xian zen mo zai
+要怎麼收穫先怎麼栽	yao zen me shou huo xian zen me zai
+要東就東要西就西	yao dong jiu dong yao xi jiu xi
+要死不能要生不能	yao si bu neng yao sheng bu neng
+要風得風要雨得雨	yao feng de feng yao yu de yu
+見可而進知難而退	jian ke er jin zhi nan er tui
+見怪不怪其怪自敗	jian guai bu guai qi guai zi bai
+見所未見聞所未聞	jian suo wei jian wen suo wei wen
+見義不為是為無勇	jian yi bu wei shi wei wu yong
+見義勇為	jian yi yong wei
+見鐘不打更去煉銅	xian zhong bu da geng qu lian tong
+見鐘不打更去煉銅	jian zhong bu da geng qu lian tong
+視之不見聽之不聞	shi zhi bu jian ting zhi bu wen
+視為畏途	shi wei wei tu
+視而不見聽而不聞	shi er bu jian ting er bu wen
+視虱如輪	shi shi ru lun
+親不親故鄉人美不美鄉中水	qin bu qin gu xiang ren mei bu mei xiang zhong shui
+親離眾叛	qin li zhong pan
+言之不文行之不遠	yan zhi bu wen xing zhi bu yuan
+言之無文行而不遠	yan zhi wu wen xing er bu yuan
+言之諄諄聽之藐藐	yan zhi zhun zhun ting zhi miao miao
+言寡尤行寡悔	yan gua you xing gua hui
+言必信行必果	yan bi xin xing bi guo
+言忠信行篤敬	yan zhong xin xing du jing
+言為心聲	yan wei xin sheng
+言者無罪聞者足戒	yan zhe wu zui wen zhe zu jie
+言者諄諄聽者藐藐	yan zhe zhun zhun ting zhe miao miao
+言而無文行之不遠	yan er wu wen xing zhi bu yuan
+訛言惑眾	e yan huo zhong
+話裡套話	hua li tao hua
+話裡有話	hua li you hua
+話裡藏鬮	hua li cang jiu
+誅凶殄逆	zhu xiong tian ni
+誅凶討逆	zhu xiong tao ni
+認賊為子	ren zei wei zi
+誣良為盜	wu liang wei dao
+誨爾諄諄聽我藐藐	hui er zhun zhun ting wo miao miao
+說一是一說二是二	shuo yi shi yi shuo er shi er
+說人人到說鬼鬼到	shuo ren ren dao shuo gui gui dao
+說到曹操曹操就到	shuo dao cao cao cao cao jiu dao
+說得著	shuo de zhao
+說著玩兒	shuo zhe wa er
+說著玩兒	shuo zhe wan er
+誰家灶內無煙	shei jia zao nei wu yan
+謀事在人成事在天	mou shi zai ren cheng shi zai tian
+謀為不軌	mou wei bu gui
+謔浪笑敖	nve lang xiao ao
+謔浪笑敖	xue lang xiao ao
+謔浪話頭	nve lang hua tou
+謔浪話頭	xue lang hua tou
+謔而不虐	nve er bu nve
+謙受益滿招損	qian shou yi man zhao sun
+謠言惑眾	yao yan huo zhong
+譁眾取寵	hua zhong qu chong
+識時務者為俊傑	shi shi wu zhe wei jun jie
+警告啟事	jing gao qi shi
+譸張為幻	zhou zhang wei huan
+變危為安	bian wei wei an
+讓禮一寸得禮一尺	rang li yi cun de li yi chi
+谷樹皮	gu shu pi
+豆腐嘴刀子心	dou fu zui dao zi xin
+豔冠群芳	yan guan qun fang
+豪邁不群	hao mai bu qun
+豬八戒吃人參果	zhu ba jie chi ren shen guo
+豬腳麵線	zhu jiao mian xian
+豹死留皮人死留名	bao si liu pi ren si liu ming
+貂不足狗尾續	diao bu zu gou wei xu
+貌不驚人言不壓眾	mao bu jing ren yan bu ya zhong
+貓兒頭差事	mao er tou chai shi
+貓兒頭差事	mao er tou cha shi
+貓吃生柿子	mao chi sheng shi zi
+貝伽特症候群	bei qie te zheng hou qun
+貧居鬧市無人問富在深山有遠親	pin ju nao shi wu ren wen fu zai shen shan you yuan qin
+貨比三家不吃虧	huo bi san jia bu chi kui
+貪吃懶做	tan chi lan zuo
+貪官汙吏	tan guan wu li
+貪汙腐化	tan wu fu hua
+貪汙舞弊	tan wu wu bi
+貫手著棼	guan shou zhuo fen
+貴冠履忘頭足	gui guan lv wang tou zu
+買金偏撞不著賣金的	mai jin pian zhuang bu zhao mai jin de
+賞口飯吃	shang kou fan chi
+賣文為活	mai wen wei huo
+賣炭的掉在麵缸裡	mai tan de diao zai mian gang li
+賣瓜子兒開廂子打嚏噴	mai gua ze er kai xiang zi da ti fen
+賣瓜子兒開廂子打嚏噴	mai gua zi er kai xiang zi da ti fen
+贓汙狼藉	zang wu lang ji
+赤口上天白舌入地	chi kou shang tian bo she ru di
+赤道群島	chi dao qun dao
+走為上策	zou wei shang ce
+走著瞧	zou zhe qiao
+起偃為豎	qi yan wei shu
+起兵動眾	qi bing dong zhong
+起師動眾	qi shi dong zhong
+起死人肉白骨	qi si ren rou bai gu
+趁熱灶	chen re zao
+趁熱灶火	chen re zao huo
+超三界外不在五行中	chao san jie wai bu zai wu xing zhong
+超俗拔群	chao su ba qun
+超然不群	chao ran bu qun
+超絕群倫	chao jue qun lun
+超群出眾	chao qun chu zhong
+超群拔類	chao qun ba lei
+超群絕倫	chao qun jue lun
+超群脫俗	chao qun tuo su
+超群越輩	chao qun yue bei
+超群軼類	chao qun yi lei
+越南社會主義共和國	yue nan she hui zhu yi gong he guo
+趕熱灶	gan re zao
+趕著增福神著棍打	gan zhe zeng fu shen zhao gun da
+趕著鴨子上架	gan zhe ya zi shang jia
+趕麵杖吹火	gan mian zhang chui huo
+趕麵棍	gan mian gun
+跋步床	ba bu chuang
+跌宕不群	die dang bu qun
+跨媒體合作	kua mei ti he zuo
+路見不平拔劍相助	lu jian bu ping ba jian xiang zhu
+路遙知馬力事久見人心	lu yao zhi ma li shi jiu jian ren xin
+路遙知馬力日久見人心	lu yao zhi ma li ri jiu jian ren xin
+跳咯噔兒	tiao ge deng er
+跳咯噔兒	tiao lo deng er
+跳灶王	tiao zao wang
+跳虎撥著關捩子	tiao hu bo zhe guan lie zi
+踏步床	ta bu chuang
+踏著尾羓頭動	ta zhe wei ba tou dong
+蹭稜子	ceng leng zi
+躧一頭兒撬一頭兒	xi yi tou er qiao yi tou er
+身先士眾	shen xian shi zhong
+身在江海心馳魏闕	shen zai jiang hai xin chi wei que
+軌外行為	gui wai xing wei
+軍來將敵水來土堰	jun lai jiang di shui lai tu yan
+軟硬不吃	ruan ying bu chi
+軟面筋	ruan mian jin
+軼群絕類	yi qun jue lei
+軼類超群	yi lei chao qun
+輸贏無定報應分明	shu ying wu ding bao ying fen ming
+轉危為安	zhuan wei wei an
+轉悲為喜	zhuan bei wei xi
+轉愁為喜	zhuan chou wei xi
+轉憂為喜	zhuan you wei xi
+轉敗為功	zhuan bai wei gong
+轉敗為勝	zhuan bai wei sheng
+轉災為福	zhuan zai wei fu
+轉禍為福	zhuan huo wei fu
+迫良為娼	po liang wei chang
+逕啟者	jing qi zhe
+這麼著	zhe me zhe
+通心麵	tong xin mian
+通知啟事	tong zhi qi shi
+逞己失眾	cheng ji shi zhong
+逞意妄為	cheng yi wang wei
+逞著勁兒	cheng zhe jie er
+逞著勁兒	cheng zhe jin er
+速食麵	su shi mian
+造言惑眾	zao yan huo zhong
+造謠惑眾	zao yao huo zhong
+逢山開路遇水填橋	feng shan kai lu yu shui tian qiao
+逸世超群	yi shi chao qun
+逸群之才	yi qun zhi cai
+逸群絕俗	yi qun jue su
+逸群絕倫	yi qun jue lun
+逼民為盜	bi min wei dao
+逼良為娼	bi liang wei chang
+遁世離群	dun shi li qun
+運用之妙存乎一心	yun yong zhi miao cun hu yi xin
+過得著	guo de zhao
+過水麵	guo shui mian
+道三不著兩	dao san bu zhao liang
+道不同不相為謀	dao bu tong bu xiang wei mou
+道歉啟事	dao qian qi shi
+道路交通安全督導會報	dao lu jiao tong an quan du dao hui bao
+遙地裡	yao di li
+遠在天邊近在眼前	yuan zai tian bian jin zai yan qian
+邋裡邋遢	la li la ta
+邑犬群吠	yi quan qun fei
+那個貓兒不吃腥	na ge mao er bu chi xing
+那麼著	na me zhe
+都市家具	du shi jia ju
+鄂君啟節	e jun qi jie
+鄭氏群虎	zheng shi qun hu
+鄰居好一片寶	lin ju hao yi pian bao
+酒不醉人人自醉色不迷人人自迷	jiu bu zui ren ren zi zui se bu mi ren ren zi mi
+酒亂性色迷人	jiu luan xing se mi ren
+酩子裡	ming zi li
+醯雞甕裡	xi ji weng li
+里仁為美	li ren wei mei
+重羅麵	chong luo mian
+量入為出	liang ru wei chu
+量力而為	liang li er wei
+量大福也大機深禍亦深	liang da fu ye da ji shen huo yi shen
+量小非君子無毒不丈夫	liang xiao fei jun zi wu du bu zhang fu
+金命水命走投無命	jin ming shui ming zou tou wu ming
+金石為開	jin shi wei kai
+金紫光祿大夫	jin zi guang lu da fu
+釜裡之魚	fu li zhi yu
+銀質沉著	yin zhi chen zhuo
+鋁鎂齊	lv mei ji
+鋁鎂齊	lv mei qi
+錢到公事辦火到豬頭爛	qian dao gong shi ban huo dao zhu tou lan
+錢眼裡安身	qian yan li an shen
+鏇床子	xuan chuang zi
+鏡裡孤鸞	jing li gu luan
+鐘在寺裡聲在外邊	zhong zai si li sheng zai wai bian
+鐵怕落爐人怕落囤	tie pa luo lu ren pa luo dun
+鑼群文化	luo qun wen hua
+長壽麵	chang shou mian
+長著臉	chang zhe lian
+長處搯短處捏	chang chu tao duan chu nie
+門神裡邊捲灶爺	men shen li bian juan zao ye
+門縫裡看人	men feng li kan ren
+門裡人	men li ren
+門裡出身	men li chu shen
+門裡大	men li da
+門裡安心	men li an xin
+閉著眼睛捉麻雀	bi zhe yan jing zhuo ma que
+閉門家裡坐禍從天上來	bi men jia li zuo huo cong tian shang lai
+間深裡	jian shen li
+閔子裡	min zi li
+閻王叫你三更死誰敢留人到五更	yan wang jiao ni san geng si shei gan liu ren dao wu geng
+關著門過日子	guan zhe men guo ri zi
+關起門來都是一家人	guan qi men lai dou shi yi jia ren
+阿爾及利亞人民民主共和國	a er ji li ya ren min min zhu gong he guo
+阿留申群島	a liu shen qun dao
+附著力	fu zhuo li
+除汙去垢	chu wu qu gou
+陪床的	pei chuang de
+陰溝裡翻船	yin gou li fan chuan
+陰著兒	yin zhao er
+陽春麵	yang chun mian
+隔著窗戶吹喇叭	ge zhe chuang hu chui la ba
+隔裡個裡	ge li ge li
+險道神撞著壽星老兒	xian dao shen zhuang zhao shou xing lao er
+雀兒揀著旺處飛	que er jian zhe wang chu fei
+集體行為	ji ti xing wei
+雙日不著單日著	shuang ri bu zhuo dan ri zhuo
+雜合麵兒	za he mia er
+雜合麵兒	za he mian er
+雞犬之聲相聞老死不相往來	ji quan zhi sheng xiang wen lao si bu xiang wang lai
+雞蛋裡挑骨頭	ji dan li tiao gu tou
+雞骨支床	ji gu zhi chuang
+離了靛缸染不著顏色	li le dian gang ran bu zhao yan se
+離群索居	li qun suo ju
+難乎為繼	nan hu wei ji
+難以為情	nan yi wei qing
+難以為繼	nan yi wei ji
+難為情	nan wei qing
+難為狀	nan wei zhuang
+難者不會會者不難	nan zhe bu hui hui zhe bu nan
+雪裡蕻	xue li hong
+雪裡送炭	xue li song tan
+雲端裡看廝殺	yun duan li kan si sha
+雲端裡老鼠	yun duan li lao shu
+電磁灶	dian ci zao
+霧裡看花	wu li kan hua
+青年有為	qing nian you wei
+非我族類其心必異	fei wo zu lei qi xin bi yi
+非法行為	fei fa xing wei
+靠山吃山	kao shan chi shan
+靠山吃山靠水吃水	kao shan chi shan kao shui chi shui
+鞭辟入裡	bian bi ru li
+鞭辟近裡	bian bi jin li
+韻府群玉	yun fu qun yu
+頂子床	ding zi chuang
+順之者成逆之者敗	shun zhi zhe cheng ni zhi zhe bai
+順之者昌逆之者亡	shun zhi zhe chang ni zhi zhe wang
+順人者昌逆人者亡	shun ren zhe chang ni ren zhe wang
+順吾者生逆吾者死	shun wu zhe sheng ni wu zhe si
+順天者存逆天者亡	shun tian zhe cun ni tian zhe wang
+順天者昌逆天者亡	shun tian zhe chang ni tian zhe wang
+順天者逸逆天者勞	shun tian zhe yi ni tian zhe lao
+順德者昌逆德者亡	shun de zhe chang ni de zhe wang
+順我者吉逆我者衰	shun wo zhe ji ni wo zhe shuai
+順我者生逆我者死	shun wo zhe sheng ni wo zhe si
+順道者昌逆德者亡	shun dao zhe chang ni de zhe wang
+頗不以為然	po bu yi wei ran
+頗為可觀	po wei ke guan
+領先群倫	ling xian qun lun
+領先群雄	ling xian qun xiong
+頭巾弔在水裡	tou jin diao zai shui li
+頭朝裡	tou chao li
+頭疼醫頭腳疼醫腳	tou teng yi tou jiao teng yi jiao
+頭痛治頭足痛治足	tou tong zhi tou zu tong zhi zu
+頭痛灸頭腳痛灸腳	tou tong jiu tou jiao tong jiu jiao
+頭醋不酸二醋不辣	tou cu bu suan er cu bu la
+顢裡顢頇	man li man han
+顫巍巍	zhan wei wei
+顫悠悠	zhan you you
+顫抖抖	zhan dou dou
+顰有為顰笑有為笑	pin you wei pin xiao you wei xiao
+風不來樹不動	feng bu lai shu bu dong
+風不搖樹不動	feng bu yao shu bu dong
+風吹鴨蛋殼財去人安樂	feng chui ya dan ke cai qu ren an le
+風在那裡起雨在那裡落	feng zai na li qi yu zai na li luo
+風櫛雨沐	feng jie yu mu
+風櫛雨沐	feng zhi yu mu
+風裡楊花	feng li yang hua
+風裡言	feng li yan
+風裡語	feng li yu
+風起水涌	feng qi shui yong
+風雨對床	feng yu dui chuang
+食不厭精膾不厭細	shi bu yan jing kuai bu yan xi
+食不言寢不語	shi bu yan qin bu yu
+食之無味棄之不甘	shi zhi wu wei qi zhi bu gan
+食之無味棄之可惜	shi zhi wu wei qi zhi ke xi
+食在口頭錢在手頭	shi zai kou tou qian zai shou tou
+飢者易為食	ji zhe yi wei shi
+飯來張口茶來伸手	fan lai zhang kou cha lai shen shou
+飯來張口衣來伸手	fan lai zhang kou yi lai shen shou
+飯店裡買蔥	fan dian li mai cong
+饃饃一樣在各人的做手	mo mo yi yang zai ge ren de zuo shou
+饅頭不吃惹身羶	man tou bu chi re shen shan
+香料群島	xiang liao qun dao
+香油拌藻菜各人各心愛	xiang you ban zao cai ge ren ge xin ai
+馬來群島	ma lai qun dao
+馬紹爾群島	ma shao er qun dao
+馬蹄刀瓢裡切菜	ma ti dao piao li qie cai
+馬達加斯加民主共和國	ma da jia si jia min zhu gong he guo
+騎著老虎過海	qi zhe lao hu guo hai
+騎馬一世驢背失腳	qi ma yi shi lv bei shi jiao
+驚為天人	jing wei tian ren
+骨子裡	gu zi li
+骨裡骨碌	gu li gu lu
+骨頭裡掙出來的錢纔做得肉	gu tou li zheng chu lai de qian cai zuo de rou
+高不輳低不就	gao bu cou di bu jiu
+高筋麵粉	gao jin mian fen
+高著兒	gao zhao er
+髭髭著	zi zi zhe
+鬧著玩兒	nao zhe wa er
+鬧著玩兒	nao zhe wan er
+魚幫水水幫魚	yu bang shui shui bang yu
+魚床子	yu chuang zi
+魯般手裡調大斧	lu ban shou li diao da fu
+鮮為人知	xian wei ren zhi
+鰲裡奪尊	ao li duo zun
+鰷魚溝水活應笑北溟鯤	tiao yu gou shui huo ying xiao bei ming kun
+鱗次櫛比	lin ci jie bi
+鱗次櫛比	lin ci zhi bi
+鳥不生蛋狗不拉屎	niao bu sheng dan gou bu la shi
+鳥之將死其鳴也哀	niao zhi jiang si qi ming ye ai
+鳥裡鳥氣	niao li niao qi
+鳴謝啟事	ming xie qi shi
+鴉窩裡出鳳凰	ya wo li chu feng huang
+鵓鴿揀著旺處飛	bo ge jian zhe wang chu fei
+鵝群帖	e qun tie
+鶴立雞群	he li ji qun
+鶴處雞群	he chu ji qun
+鶻入鴉群	hu ru ya qun
+鷙鳥不群	zhi niao bu qun
+鷦鷯巢林不過一枝	jiao liao chao lin bu guo yi zhi
+鷸蚌相持漁人得利	yu bang xiang chi yu ren de li
+鷹爪毛兒	ying zhao mao er
+鷹爪毛兒	ying zhua mao er
+鸚鵡能言不離飛鳥	ying wu neng yan bu li fei niao
+鹽打怎麼鹹醋打怎麼酸	yan da ze me xian cu da ze me suan
+鹽打怎麼鹹醋打怎麼酸	yan da zen me xian cu da zen me suan
+麵人兒	mian re er
+麵人兒	mian ren er
+麵包樹	mian bao shu
+麵包車	mian bao che
+麵坯兒	mian pi er
+麵坯兒	mian pie er
+麵子藥	mian zi yao
+麵攤子	mian tan zi
+麵杖吹火	mian zhang chui huo
+麵疙瘩	mian ge da
+麵碼兒	mian ma er
+麻胡著臉	ma hu zhe lian
+麻著膽子	ma zhe dan zi
+黃金滿籯不如一經	huang jin man ying bu ru yi jing
+黏著劑	nian zhuo ji
+黏著力	nian zhuo li
+黑吃黑	hei chi hei
+黑白混淆	hei bai hun yao
+黑白混淆	hei bai hun xiao
+黑裡俏	hei li qiao
+黑頭蟲兒不可救救之就要吃人肉	hei tou chong er bu ke jiu jiu zhi jiu yao chi ren rou
+點到為止	dian dao wei zhi
+點灶燈	dian zao deng
+鼻子裡笑	bi zi li xiao
+齒牙為猾	chi ya wei hua
+齒牙為禍	chi ya wei huo
+龍門刨床	long men bao chuang
