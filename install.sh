@@ -45,7 +45,7 @@ echo "== 舊的自建檔案搬到 rime-disabled（不刪除）"
 mkdir -p "$USER_DIR"
 BACKUP=$HOME/.local/share/fcitx5/rime-disabled/$(date +%Y%m%d-%H%M%S)
 for f in luna_pinyin_tw.schema.yaml luna_pinyin_simp.schema.yaml luna_pinyin.moedict.dict.yaml \
-         luna_pinyin_ext.dict.yaml luna_pinyin_extra.dict.yaml luna_pinyin_tw.custom.yaml luna_pinyin_simp.custom.yaml default.custom.yaml; do
+         luna_pinyin_ext.dict.yaml luna_pinyin_extra.dict.yaml luna_pinyin_tw.custom.yaml luna_pinyin_simp.custom.yaml; do
   [ -f "$USER_DIR/$f" ] || continue
   [ -f "$HERE/$f" ] && cmp -s "$USER_DIR/$f" "$HERE/$f" && continue
   mkdir -p "$BACKUP"
@@ -55,7 +55,52 @@ done
 others=$(cd "$USER_DIR" && ls *.dict.yaml 2>/dev/null | grep -vxE "luna_pinyin_(ext|extra).dict.yaml" || true)
 [ -n "$others" ] && echo "   注意：使用者目錄還有其他詞庫檔，未處理：$others"
 
-cp "$HERE"/{luna_pinyin_ext.dict.yaml,luna_pinyin_extra.dict.yaml,luna_pinyin_tw.custom.yaml,default.custom.yaml} "$USER_DIR/"
+cp "$HERE"/{luna_pinyin_ext.dict.yaml,luna_pinyin_extra.dict.yaml,luna_pinyin_tw.custom.yaml} "$USER_DIR/"
+
+# default.custom.yaml 只合併 schema_list，其他設定（如 menu/page_size）保留；看不懂的寫法就停下來，不亂改
+if [ -f "$USER_DIR/default.custom.yaml" ]; then
+  python3 -I - "$USER_DIR/default.custom.yaml" "$BACKUP" <<'PY'
+import os, re, shutil, sys
+path, backup = sys.argv[1:]
+old = open(path, encoding="utf-8", newline="").read()
+nl = "\r\n" if "\r\n" in old else "\n"
+lines = re.split(r"\r?\n", old.rstrip("\r\n"))
+block = ["  schema_list:", "    - schema: luna_pinyin_tw"]
+
+def merged(lines):
+    p = next((i for i, l in enumerate(lines) if re.match(r"patch:\s*(#.*)?$", l)), None)
+    if p is None:
+        if any(re.match(r"\s*[^#\s]", l) for l in lines):
+            sys.exit("看不懂 default.custom.yaml（沒有頂格的 patch:），請手動把 schema_list 加進去，見本目錄的 default.custom.yaml。")
+        return [l for l in lines if l] + ["patch:"] + block
+    # patch 區塊到下一個頂格的非註解行為止
+    end = next((i for i in range(p + 1, len(lines)) if re.match(r"[^\s#]", lines[i])), len(lines))
+    k = next((i for i in range(p + 1, end) if re.match(r'\s+"?schema_list"?\s*:', lines[i])), None)
+    if k is None:
+        return lines[:p + 1] + block + lines[p + 1:]
+    ind, rest = re.match(r'(\s+)"?schema_list"?\s*:(.*)$', lines[k]).groups()
+    rest = re.sub(r"#.*$", "", rest).strip()
+    j = k + 1
+    if rest == "":
+        # 區塊寫法：舊的清單項目是縮排更深、或同縮排以 - 開頭的行
+        item = re.compile(re.escape(ind) + r"(\s+\S|-)")
+        while j < end and item.match(lines[j]):
+            j += 1
+    elif not re.fullmatch(r"\[.*\]", rest):
+        sys.exit("看不懂 default.custom.yaml 的 schema_list 寫法，請手動改成只有 luna_pinyin_tw。")
+    return lines[:k] + [ind + b[2:] for b in block] + lines[j:]
+
+new = nl.join(merged(lines)) + nl
+if new != old:
+    os.makedirs(backup, exist_ok=True)
+    shutil.copy2(path, backup)
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(new)
+    print(f"   default.custom.yaml 舊檔備份到 {backup}/，只改了 schema_list")
+PY
+else
+  cp "$HERE/default.custom.yaml" "$USER_DIR/"
+fi
 
 echo "== 部署"
 quiet rime_deployer --build "$USER_DIR" "$RIME_DATA" "$USER_DIR/build"

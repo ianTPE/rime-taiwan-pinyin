@@ -33,11 +33,11 @@ This repo does the Rime setup for you:
    powershell -ExecutionPolicy Bypass -File .\install.ps1
    ```
 
-   It copies four files into `%APPDATA%\Rime` (backing up any that differ), redeploys, and checks that the Taiwan schema picked up the dictionary.
+   It copies three files into `%APPDATA%\Rime` (backing up any that differ) and sets `schema_list` in your `default.custom.yaml`, keeping your other settings there (such as `menu/page_size`). Then it redeploys and checks that the Taiwan schema picked up the dictionary.
 
 3. For Simplified, add "Chinese (Simplified, China)" with Microsoft Pinyin and switch with `Win+Space`.
 
-Prefer not to run a script? Copy `luna_pinyin_ext.dict.yaml`, `luna_pinyin_extra.dict.yaml`, `luna_pinyin_tw.custom.yaml` and `default.custom.yaml` into `%APPDATA%\Rime`, then right-click the IME tray icon → 重新部署 (Redeploy). Copy the files as they are; don't open and re-save them in Notepad.
+Prefer not to run a script? Copy `luna_pinyin_ext.dict.yaml`, `luna_pinyin_extra.dict.yaml`, `luna_pinyin_tw.custom.yaml` and `default.custom.yaml` into `%APPDATA%\Rime`, then right-click the IME tray icon → 重新部署 (Redeploy). Copy the files as they are; don't open and re-save them in Notepad. If you already have a `default.custom.yaml` there, don't overwrite it: replace the `schema_list` under its `patch:` with the one from this repo and keep your other settings. The copied files keep their old modification times, and Weasel skips a deploy when nothing looks newer than its last build. If redeploying doesn't pick up the dictionary, update the files' modification times (in PowerShell: `Get-ChildItem $env:APPDATA\Rime\*.yaml | ForEach-Object { $_.LastWriteTime = Get-Date }`) and redeploy again.
 
 **If "朙月拼音·臺灣正體" doesn't show up after deploying**, your Weasel build may not ship `luna_pinyin_tw.schema.yaml` (0.17.4 does). Copy it from `/usr/share/rime-data/` on any Linux machine with `rime-data-luna-pinyin`, or from [rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin), into `%APPDATA%\Rime` and redeploy. Deploy errors don't pop up; they are logged under `%TEMP%\rime.weasel\`. A long list of `Encode failure` warnings there is normal.
 

@@ -38,11 +38,11 @@
    powershell -ExecutionPolicy Bypass -File .\install.ps1
    ```
 
-   腳本會把四個檔案複製到 `%APPDATA%\Rime`（內容不同的舊檔先備份）、重新部署，並檢查臺灣正體方案有沒有接上詞庫。
+   腳本會把三個檔案複製到 `%APPDATA%\Rime`（內容不同的舊檔先備份），並在你的 `default.custom.yaml` 裡設好 `schema_list`，裡面其他設定（例如 `menu/page_size`）會保留。接著重新部署，並檢查臺灣正體方案有沒有接上詞庫。
 
 3. 要打簡體時，用 Windows 內建的微軟拼音：「語言與地區」新增「中文（簡體，中國）」，`Win+Space` 切換。
 
-不想跑腳本，也可以手動把 `luna_pinyin_ext.dict.yaml`、`luna_pinyin_extra.dict.yaml`、`luna_pinyin_tw.custom.yaml`、`default.custom.yaml` 複製到 `%APPDATA%\Rime`，再在右下角輸入法圖示按右鍵 →「重新部署」。用複製的，不要用記事本開來另存。
+不想跑腳本，也可以手動把 `luna_pinyin_ext.dict.yaml`、`luna_pinyin_extra.dict.yaml`、`luna_pinyin_tw.custom.yaml`、`default.custom.yaml` 複製到 `%APPDATA%\Rime`，再在右下角輸入法圖示按右鍵 →「重新部署」。用複製的，不要用記事本開來另存。如果 `%APPDATA%\Rime` 裡已經有 `default.custom.yaml`，不要覆蓋：把它 `patch:` 底下的 `schema_list` 換成本 repo 的那段，其他設定保留。複製過去的檔案會保留舊的修改時間，小狼毫看不到比上次部署新的檔案就會跳過部署；重新部署後沒接上詞庫的話，更新這些檔案的修改時間（PowerShell：`Get-ChildItem $env:APPDATA\Rime\*.yaml | ForEach-Object { $_.LastWriteTime = Get-Date }`）再部署一次。
 
 **部署後方案清單裡沒有「朙月拼音·臺灣正體」時**：你的小狼毫版本可能沒附 `luna_pinyin_tw.schema.yaml`（0.17.4 有附）。從裝了 `rime-data-luna-pinyin` 的 Linux 機器的 `/usr/share/rime-data/`，或 [rime/rime-luna-pinyin](https://github.com/rime/rime-luna-pinyin) 複製一份到 `%APPDATA%\Rime`，再重新部署。部署失敗不會跳錯，只寫在 `%TEMP%\rime.weasel\` 的日誌裡；日誌裡一長串 `Encode failure` 是正常的。
 
